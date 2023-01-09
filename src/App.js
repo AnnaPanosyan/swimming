@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import { Route, Routes } from "react-router-dom";
+import AGB from "./componets/AGB";
+import Footer from "./componets/Footer";
+import Home from "./componets/Home";
+import Navbar from "./componets/Navbar";
+import Offer from "./componets/Offer";
+import Popular  from "./componets/Popular";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div>
+     <Navbar/>
+     <Home/>
+     <Popular/>
+     <Offer/>
+     <Footer/>
     </div>
+    // <Routes>
+        
+
+    //   <Route path='/' element={ <Home/>}/>
+    //   <Route path='/home' element={ <Home/>}/>
+    //   <Route path='/kursplan' element={ <Kursplan/>}/>
+    //   <Route path='/kursBuchen' element={ <KursBuchen/>}/>
+
+    //   <Route path='/AGB' element={ <AGB/>}/>
+    //  </Routes>
   );
 }
 

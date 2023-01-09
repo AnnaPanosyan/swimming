@@ -1,0 +1,595 @@
+@import "./variebes.scss";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s ease;
+}
+body {
+  width: 100%;
+  color: $dark;
+  background-color: $bg;
+}
+
+#root {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.section {
+  padding: 4rem 0 2rem;
+}
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+  color: $light;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  padding: 0.4rem 1.5rem;
+  background-color: $light;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+.btn a {
+  color: $dark;
+  font-weight: 500;
+}
+.btn:hover a {
+  color: $bg;
+}
+.secIntro {
+  max-width: 70%;
+  text-align: center;
+  margin: o auto 2rem;
+}
+
+.secIntro .secTitle {
+  color: $blackColor;
+  line-height: 1.5 rem;
+  padding-bottom: 0.5rem;
+}
+.secIntro p {
+  font-size: 13px;
+  color: $textColor;
+  font-weight: 500;
+}
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+input {
+  font-size: 100%;
+}
+@media (max-width: 556px) {
+  .mainContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.logoDiv {
+  .logoIcon {
+    display: flex;
+    flex-direction: row;
+    &:hover {
+      color: $dark;
+    }
+    .flexIcon {
+      display: flex;
+      flex-direction: column;
+      span {
+        font-family: cursive;
+        font-style: oblique;
+        color: $dark;
+      }
+    }
+  }
+}
+
+.navBarSection {
+  .header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+    // background:$greyBg;
+
+    .logoDiv {
+      box-shadow: 0 3px 2px 0 $light;
+
+      .logo {
+        color: $dark;
+        font-weight: 500;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+          color: $light;
+          font-size: 25px;
+          margin-right: 10px;
+        }
+      }
+    }
+    $small: 300px;
+    $medium: 900px;
+
+    // @media (max-width: $medium) {
+    @media screen and (min-width: $small) and (max-width: $medium) {
+      // @media (max-width: 768px) {
+      .navBar {
+        background: $greyBg;
+        position: absolute;
+        height: max-content;
+        padding: 1rem;
+        width: 100%;
+        top: 0;
+        left: -500%;
+        box-shadow: 0 2px 4px $light;
+        transition: 0.5s ease;
+        z-index: 1000;
+
+        .navLists {
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          margin: auto;
+
+          .navItem {
+            padding: 1rem 0;
+            .navLink {
+              color: $primaryColor;
+              font-size: 0.9rem;
+              font-weight: 600;
+              &:hover {
+                color: $light;
+              }
+            }
+          }
+        }
+        .closeNavbar {
+          position: absolute;
+          top: 1rem;
+          right: 1.5rem;
+          color: $hoverColor;
+          &:hover .icon {
+            color: ($light);
+          }
+        }
+      }
+      .activeNavbar {
+        left: 0;
+      }
+    }
+
+    .toggleNavbar {
+      .icon {
+        font-size: 25px;
+        color: $dark;
+        &:hover {
+          color: $light;
+        }
+      }
+    }
+  }
+  .activeHeader {
+    background: $greyBg;
+    box-shadow: 0 2px 8px 2px 2px $dark;
+  }
+}
+@media (min-width: 713px) {
+  .toggleNavbar,
+  .closeNavbar {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+    .navBar {
+      .navLists {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        .navItem {
+          .navLink {
+            color: $dark;
+            padding: 0 0.45rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            &:hover {
+              color: $light;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.home {
+  height: 70vh;
+  background: url(../assets/bgimg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+  position: relative;
+
+  .secContainer {
+    .homeText {
+      text-align: center;
+      .title {
+        color: $greyBg;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3rem;
+      }
+      .btn {
+        padding: 0.6rem 1.5rem;
+        margin-top: 12rem;
+      }
+    }
+  }
+}
+
+.popular {
+  padding-top: 5rem;
+  .secContainer {
+    .secHeader {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+
+      .textDiv {
+        .secTitle {
+          color: $dark;
+          line-height: 1.5rem;
+          padding-bottom: 0.5rem;
+          text-transform: uppercase;
+        }
+        p {
+          font-size: 15px;
+          color: $primaryColor;
+        }
+      }
+    }
+    .mainContent {
+      padding: 2rem 0;
+      gap: 1rem;
+      flex-direction: column;
+      .singInDestination {
+        overflow: hidden;
+        border-radius: 1rem;
+        box-shadow: 0 2px 8px 2px $primaryColor;
+        .destImage {
+          height: 200px;
+          width: 100%;
+          position: relative;
+          overflow: hidden;
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+          .overlayInfo {
+            position: absolute;
+            display: flex;
+            align-items: flex-start;
+            padding: 0;
+            // padding: 1rem 1.5rem;
+            justify-content: center;
+            flex-direction: column;
+            background: linear-gradient($bg, rgba(45, 108, 180, 0.3));
+            bottom: 0;
+            width: 100%;
+            // height: 100%;
+            height: 0;
+            overflow: hidden;
+            h3 {
+              color: $dark;
+              font-weight: 600;
+            }
+
+            .icon {
+              position: absolute;
+              right: 10px;
+              bottom: 10px;
+              padding: 0.5rem;
+              background: $primaryColor;
+              font-size: 2.5rem;
+              border-radius: 50%;
+              color: $light;
+              border: 1px solid transparent;
+              transition: 0.3s ease;
+              &:hover {
+                background: $hoverColor;
+                border: 1px solid $light;
+                color: $bg;
+              }
+            }
+          }
+        }
+
+        .destFooter {
+          padding: 1rem;
+          .number {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $primaryColor;
+            position: relative;
+            width: max-content;
+            &::after {
+              content: "";
+              position: absolute;
+              background: $light;
+              top: 45%;
+              right: -150%;
+              height: 5px;
+              width: 37px;
+              border-radius: 1px;
+            }
+          }
+
+          .desText {
+            justify-content: space-between;
+            h6 {
+              color: $primaryColor;
+              font-size: 16px;
+            }
+            .flex {
+              font-size: 16px;
+              font-weight: 600;
+              align-items: flex-start;
+              transform: translateY(5px);
+            }
+          }
+        }
+        &:hover {
+          .overlayInfo {
+            overflow: visible;
+            padding: 1rem 1.5rem;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 769px) {
+  .popular {
+    padding-top: 10rem;
+  }
+}
+
+.offer {
+  .secContainer {
+    .mainContent {
+      gap: 1rem;
+      .singleOffer {
+        border-radius: 1rem;
+        overflow: hidden;
+        padding: 0.5rem;
+        box-shadow: 0 2px 8px 2px $primaryColor;
+
+        .icon {
+          font-size: 20px;
+          color: $dark;
+        }
+        small {
+          font-weight: 500;
+          color: $primaryColor;
+        }
+        .destImage {
+          position: relative;
+          height: 200px;
+          width: 100%;
+          border-radius: 1rem;
+          overflow: hidden;
+          img {
+            height: 100%;
+          }
+          .discount {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background: $primaryColor;
+            color: $light;
+            border-radius: 3rem;
+            font-size: 10px;
+            font-weight: 500;
+          }
+        }
+        .offerBody {
+          padding: 1rem;
+          .price {
+            justify-content: space-around;
+            h4 {
+              color: $dark;
+              font-weight: 700;
+              font-size: 1.1rem;
+            }
+            .status {
+              padding: 5px 10px;
+              color: $hoverColor;
+              background: $bg;
+              font-size: 10px;
+              font-weight: 600;
+              border-radius: 3rem;
+            }
+          }
+          .amenities {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding: 1rem 0;
+            gap: 0.5rem;
+
+            .singleAmenity {
+              padding: 5px 10px;
+              border-radius: 5px;
+              background: $greyBg;
+              gap: 0.5rem;
+            }
+          }
+          .btn {
+            margin-top: 1rem;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding: 0.6rem;
+            color: $primaryColor;
+            gap: 0.5rem;
+          }
+        }
+        &:hover {
+          transform: translateY(-7px);
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background: $greyBg;
+  padding: 2rem 0;
+  .secContainer {
+    gap: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    .footerLogo {
+      padding: 0.5rem;
+      .logo {
+        color: $dark;
+        font-weight: 500;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        .icon {
+          font-size: 25px;
+          color: $light;
+          margin-right: 0.5rem;
+        }
+        .flex {
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 0.2rem;
+            span {
+              font-size: 10px;
+              color: $primaryColor;
+              margin: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+    .socials {
+      gap: 0.5rem;
+      margin: auto;
+      justify-content: center;
+      .icon {
+        font-size: 30px;
+        background: $light;
+        border-radius: 50%;
+        padding: 8px;
+        color: $primaryColor;
+        &:hover {
+          background: $bg;
+        }
+      }
+    }
+    .footerLinks {
+      display: grid;
+      row-gap: 0.2rem;
+
+      .linkTitle {
+        padding-bottom: 0.5rem;
+        color: $dark;
+        font-weight: 700;
+      }
+      li {
+        &:hover {
+          transform: translateX(10px);
+          a {
+            color: $light;
+          }
+        }
+      }
+      a,
+      .phone,
+      .email {
+        color: $dark;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+    .line {
+      width: 100%;
+      height: 2px;
+      bottom: 80px;
+
+      mix-blend-mode: normal;
+      border: 1px solid $light;
+    }
+    li {
+      &:hover {
+        transform: translateX(10px);
+        a {
+          color: $light;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 448px) {
+  .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: flex-start;
+    .footerLinks {
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: 448px) {
+  .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+    .footerLinks {
+      justify-content: center;
+    }
+  }
+}
