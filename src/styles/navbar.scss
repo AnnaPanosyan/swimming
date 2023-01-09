@@ -101,15 +101,6 @@
       }
     }
 
-    .navLink_active {
-      color: $light;
-    }
-
-    .activeHeader {
-      background: $greyBg;
-      box-shadow: 0 2px 8px 2px 2px $dark;
-    }
-
     @media screen and (max-width: 768px) {
       .toggleNavbar,
       .closeNavbar {
@@ -147,11 +138,24 @@
             }
           }
         }
+
+
       }
       .activeNavbar {
         left: 0;
       }
     }
+    //----------------------------------
+
+  }
+
+  .navLink_active {
+    color: $light;
+  }
+
+  .activeHeader {
+    background: $greyBg;
+    box-shadow: 0 2px 8px 2px 2px $dark;
   }
 }
 

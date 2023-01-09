@@ -1,6 +1,6 @@
 import React from 'react'
-import { AiFillClockCircle } from 'react-icons/ai'
-import { TbSwimming } from 'react-icons/tb'
+import {AiFillClockCircle} from 'react-icons/ai'
+import {TbSwimming} from 'react-icons/tb'
 
 import img1 from "../assets/kids.jfif"
 import img2 from "../assets/boy.jpg"
@@ -37,7 +37,7 @@ const Offer = () => {
       <div className="secContainer">
         <div className="secIntro">
           <h2 className="secTitle">
-            asjaajsj
+            Trainingseinheiten
           </h2>
           <p>Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Doloribus inventore corrupti amet laboriosam
@@ -47,11 +47,11 @@ const Offer = () => {
 
         <div className="mainContent">
           {
-            Offers.map(({ id, imgSrc, destTitle, day, time }) => {
+            Offers.map(({id, imgSrc, destTitle, day, time}) => {
               return (
                 <div key={id} className="singleOffer">
                   <div className="destImage">
-                    <img src={imgSrc} alt="pic" />
+                    <img src={imgSrc} alt="pic"/>
                     <span className="discount">
                       {destTitle}
                     </span>
@@ -67,15 +67,15 @@ const Offer = () => {
                     </div>
                     <div className="amenities flex">
                       <div className="singleAmenity flex">
-                        <TbSwimming className="icon" />
+                        <TbSwimming className="icon"/>
                         <small>{day}</small>
                       </div>
                       <div className="singleAmenity flex">
-                        <AiFillClockCircle className="icon" />
+                        <AiFillClockCircle className="icon"/>
                         <small>Sonntag</small>
                       </div>
                       <div className="singleAmenity flex">
-                        <AiFillClockCircle className="icon" />
+                        <AiFillClockCircle className="icon"/>
                         <small>{time}</small>
                       </div>
                     </div>
