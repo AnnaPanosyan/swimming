@@ -7,7 +7,7 @@ import Kursplan from "./pages/Kursplan";
 import Kontact from "./pages/Kontakt";
 import Feedback from "./pages/Feedback";
 import Baderegeln from "./pages/Baderegeln";
-import PageNotFound from "./styles/PageNotFound";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
