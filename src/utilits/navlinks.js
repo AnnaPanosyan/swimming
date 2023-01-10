@@ -4,31 +4,47 @@ export const navlinks = [
   {
     id: uuidv4(),
     link: 'Home',
-    to: '',
+    to: '/',
   },
   {
     id: uuidv4(),
     link: 'Kurs buchen',
-    to: ''
+    to: 'kursbuchen'
   },
   {
     id: uuidv4(),
     link: 'Kursplan',
-    to: ''
+    to: 'kursplan'
   }, {
     id: uuidv4(),
     link: 'Kontakt',
-    to: ''
+    to: 'kontact'
   }, {
     id: uuidv4(),
     link: 'Feedback',
-    to: ''
+    to: 'feedback'
   },
   {
     id: uuidv4(),
     link: 'Baderegeln',
-    to: ''
+    to: 'baderegeln'
   },
+]
 
-
+export const roolsLink = [
+  {
+    id: uuidv4(),
+    link: 'Impressum',
+    to: 'impressum'
+  },
+  {
+    id: uuidv4(),
+    link: 'Datenschutz',
+    to: 'datenschutz'
+  },
+  {
+    id: uuidv4(),
+    link: 'AGB',
+    to: 'AGB'
+  },
 ]

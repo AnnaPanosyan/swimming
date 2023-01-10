@@ -1,6 +1,7 @@
 import React from 'react'
 import {BsArrowRightShort} from "react-icons/bs"
 import {data} from "../utilits/data";
+import {Link} from "react-router-dom";
 
 
 const Popular = () => {
@@ -27,7 +28,9 @@ const Popular = () => {
                       <h3>
                         {destTitle}
                       </h3>
-                      <BsArrowRightShort className="icon"/>
+                      <Link to='/curses'>
+                        <BsArrowRightShort className="icon"/>
+                      </Link>
                     </div>
                   </div>
                   <div className="destFooter">

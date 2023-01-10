@@ -65,8 +65,15 @@ li {
 
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 .icon {
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   color: $light;
 }

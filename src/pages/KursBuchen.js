@@ -3,8 +3,8 @@ import React from 'react'
 
 const KursBuchen = () => {
   return (
-    <div>
-      
+    <div className='container'>
+      <h1>Kurs Buchen</h1>
     </div>
   )
 }

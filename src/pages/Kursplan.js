@@ -1,19 +1,12 @@
 import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
-
 
 const Kursplan = () => {
   return (
-    <div>
-      <Header />
-      <div className=''>
-
-      </div>
+    <div className='container'>
       <div>
         <p>Wir starten mit unseren Anfänger Schwimmkursen am 15. Januar - 05. März
           10 Einheiten, jeden Sonntag
-          von 15:00 - 15:45 Uhr  und
+          von 15:00 - 15:45 Uhr und
           von 16:00 bis 16:45 Uhr
         </p>
         <button>Kurs buchen</button>
@@ -21,7 +14,7 @@ const Kursplan = () => {
       <div>
         <p>
           Wir starten mit unserem Folge Schwimmkurs am 12. März - 30. April 8
-          Trainingseinheiten, jeden Sonntag  von  17:00 - 17:45 Uhr
+          Trainingseinheiten, jeden Sonntag von 17:00 - 17:45 Uhr
         </p>
         <button>Kurs buchen</button>
 
@@ -35,7 +28,6 @@ const Kursplan = () => {
         </p>
         <button>Kurs buchen</button>
       </div>
-      <Footer />
     </div>
   )
 }

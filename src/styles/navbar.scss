@@ -22,19 +22,14 @@
 }
 
 .navBarSection {
+
   .header {
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: transparent;
     max-width: 1240px;
-    padding: 1rem;
-    z-index: 1000;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-
+    height: 80px;
 
     .navBar {
       .navLists {
