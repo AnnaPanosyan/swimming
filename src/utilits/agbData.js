@@ -93,7 +93,7 @@ export  const kursPlan=[
     title:"Wir starten mit unseren Anfänger Schwimmkursen",
     date:"am 15. Januar - 05. März",
     day:"10 Einheiten, jeden Sonntag",
-    time1:"von 15:00 - 15:45",
+    time1:"von 15:00 - 15:45 Uhr",
     time2:"von 16:00 bis 16:45 Uhr"
   },
   {
@@ -106,10 +106,10 @@ export  const kursPlan=[
   },
   {
     id:uuidv4(),
-    title:"Wir starten mit unseren Anfänger Schwimmkursen",
-    date:"am 15. Januar - 05. März",
-    day:"10 Einheiten, jeden Sonntag",
-    time1:"von 15:00 - 15:45",
-    time2:"von 16:00 bis 16:45 Uhr"
+    title:" Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
+    date:"am 05 Februar - 26. März",
+    day:" 8 Trainingseinheiten, jeden Sonntag",
+    time1:"von 17:00 - 17:45 Uhr ",
+    time2:""
   }
 ]

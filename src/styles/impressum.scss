@@ -7,15 +7,19 @@
   }
   .contacts{
     padding: 2rem 0;
+    h4{
+      color:$textColor;
+    }
     .title{
       padding: 2rem 0;
       font-style: italic;
+      color: $dark;
     }
     .links{
       display: flex;
       flex-direction:column;
       a{
-      color:$dark;
+        color:$textColor;
       }
       a:hover{
         transform: translateX(10px);
