@@ -8,10 +8,13 @@ import Kontact from "./pages/Kontakt";
 import Feedback from "./pages/Feedback";
 import Baderegeln from "./pages/Baderegeln";
 import PageNotFound from "./pages/PageNotFound";
+import Curses from "./componets/Curses";
+import AGB from "./componets/AGB";
+import Impressum from "./componets/Impressum";
+
 
 function App() {
   return (
-
     <Routes>
       <Route path='/' element={<Main/>}>
         <Route index element={<Home/>}/>
@@ -21,7 +24,9 @@ function App() {
         <Route path='feedback' element={<Feedback/>}/>
         <Route path='baderegeln' element={<Baderegeln/>}/>
         <Route path='*' element={<PageNotFound/>}/>
-        {/*<Rout  e path='curses' element={<Curses/>}/>*/}
+        <Route path='curses' element={<Curses/>}/>
+        <Route path='AGB' element={<AGB/>}/>
+        <Route path='impressum' element={<Impressum/>}/>
 
       </Route>
     </Routes>

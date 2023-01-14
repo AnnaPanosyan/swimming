@@ -25,7 +25,6 @@ const Footer = () => {
               </div>
               <div className="socials">
                 <ImFacebook className="icon"/>
-                <ImFacebook className="icon"/>
                 <AiFillInstagram className="icon"/>
               </div>
             </div>
@@ -41,8 +40,8 @@ const Footer = () => {
             </div>
             <div className="footer_contacts">
               <h4 className="linkTitle"> Kontaktiere uns </h4>
-              <a href='tel:+232 832 63782' className="phone">+232 832 63782</a>
-              <a href='mailto:test@gmail.com' className="email">test@gmail.com</a>
+              <a href='tel:+ 49 17624310872' className="phone">+ 49 17624310872</a>
+              <a href='mailto:fromzerotohero@gmail.com' className="email">fromzerotohero@gmail.com</a>
             </div>
           </div>
           <div className='footer_rolls'>

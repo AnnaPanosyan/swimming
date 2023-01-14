@@ -10,16 +10,15 @@ const Popular = () => {
       <div className="container">
         <div className="popular_section">
           <h2 className='secTitle'>
-            Wir bieten olgende schwimmkurse an
+            Wir bieten Folgende schwimmkurse an
           </h2>
           <p>
             Lorem ipsum dolor sit amet.
           </p>
         </div>
-
         <div className='mainContent'>
           {
-            data.map(({id, imgSrc, destTitle}) => {
+            data.map(({id, imgSrc, destTitle,number}) => {
               return (
                 <div key={id} className='singInDestination'>
                   <div className='destImage'>
@@ -35,20 +34,18 @@ const Popular = () => {
                   </div>
                   <div className="destFooter">
                     <div className='number'>
-                      0{id}
+                      0{number}
                     </div>
                     <div className='desText'>
                       <h6>
                         {destTitle}
                       </h6>
                     </div>
-
                   </div>
                 </div>
               )
             })}
         </div>
-
       </div>
     </section>
   )

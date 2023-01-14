@@ -7,28 +7,33 @@ import {navlinks} from "../utilits/navlinks";
 
 const Navbar = () => {
   const [active, setActive] = useState('navBar')
+  const[isOpen,setIsOpen]=useState(true)
+
+
   const showNav = () => {
     setActive('navBar activeNavbar')
   }
 
   const removeNav = () => {
     setActive("navBar")
+
+    setIsOpen(false)
   }
 
-  const [transparent, setTransparent] = useState('header')
-  const addBg = () => {
-    if (window.scrollY >= 10) {
-      setTransparent("header activeHeader")
-    } else {
-      setTransparent("header")
-    }
-  }
-  window.addEventListener("scroll", addBg)
+  // const [transparent, setTransparent] = useState('header')
+  // const addBg = () => {
+  //   if (window.scrollY >= 10) {
+  //     setTransparent("header activeHeader")
+  //   } else {
+  //     setTransparent("header")
+  //   }
+  // }
+  // window.addEventListener("scroll", addBg)
 
   return (
     <section className='navBarSection'>
       <div className="container">
-        <div className={transparent}>
+        <div className="header">
 
           <div className="logoDiv">
             <Link to='' className='logoIcon'>
@@ -44,7 +49,7 @@ const Navbar = () => {
               {
                 navlinks.map(item => (
                   <li className='navItem' key={item.id}>
-                    <NavLink to={item.to} className='navLink'>{item.link}</NavLink>
+                  <NavLink onClick={removeNav} to={item.to} className='navLink'>{item.link}</NavLink>
                   </li>
                 ))
               }

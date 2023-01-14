@@ -12,7 +12,7 @@ const Home = () => {
               Swimming from zero to hero
             </h1>
             <button className='btn'>
-              <Link to='kursbuchen'>Kurs buchen</Link>
+              <Link to='/kursbuchen'>Kurs buchen</Link>
             </button>
           </div>
         </div>
