@@ -6,7 +6,7 @@ import {v4 as uuidv4} from 'uuid';
 
 export const data = [
   {
-    id: uuidv4(),
+    id: 1,
     number:1,
     imgSrc: img1,
     destTitle: "Anfänger - Schwimmkurse",
@@ -32,7 +32,7 @@ export const data = [
     preis:"Preis 190"
 },
   {
-    id: uuidv4(),
+    id: 2,
     number:2,
     imgSrc: img2,
     destTitle: "Folge - Schwimmkurs",
@@ -52,7 +52,7 @@ export const data = [
     preis:"Preis 180"
 },
   {
-    id: uuidv4(),
+    id: 3,
     number:3,
     imgSrc: img3,
     destTitle: "Bronze, Silber - und Goldkurs",

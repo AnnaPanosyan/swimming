@@ -1,8 +1,7 @@
 import React from 'react'
-import {BsArrowRightShort} from "react-icons/bs"
-import {data} from "../utilits/data";
-import {Link} from "react-router-dom";
-
+import { BsArrowRightShort } from "react-icons/bs"
+import { data } from "../utilits/data";
+import { Link} from "react-router-dom";
 
 const Popular = () => {
   return (
@@ -18,27 +17,27 @@ const Popular = () => {
         </div>
         <div className='mainContent'>
           {
-            data.map(({id, imgSrc, destTitle,number}) => {
+            data.map((item) => {
               return (
-                <div key={id} className='singInDestination'>
+                <div key={item.id} className='singInDestination'>
                   <div className='destImage'>
-                    <img src={imgSrc} alt="title"/>
+                    <img src={item.imgSrc} alt="title" />
                     <div className='overlayInfo'>
                       <h3>
-                        {destTitle}
+                        {item.destTitle}
                       </h3>
-                      <Link to='/curses'>
-                        <BsArrowRightShort className="icon"/>
+                      <Link to={`/courses/${item.id}`}>
+                        <BsArrowRightShort className="icon" />
                       </Link>
                     </div>
                   </div>
                   <div className="destFooter">
                     <div className='number'>
-                      0{number}
+                      0{item.number}
                     </div>
                     <div className='desText'>
                       <h6>
-                        {destTitle}
+                        {item.destTitle}
                       </h6>
                     </div>
                   </div>

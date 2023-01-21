@@ -7,7 +7,6 @@ import {navlinks} from "../utilits/navlinks";
 
 const Navbar = () => {
   const [active, setActive] = useState('navBar')
-  const[isOpen,setIsOpen]=useState(true)
 
 
   const showNav = () => {
@@ -16,19 +15,7 @@ const Navbar = () => {
 
   const removeNav = () => {
     setActive("navBar")
-
-    setIsOpen(false)
   }
-
-  // const [transparent, setTransparent] = useState('header')
-  // const addBg = () => {
-  //   if (window.scrollY >= 10) {
-  //     setTransparent("header activeHeader")
-  //   } else {
-  //     setTransparent("header")
-  //   }
-  // }
-  // window.addEventListener("scroll", addBg)
 
   return (
     <section className='navBarSection'>

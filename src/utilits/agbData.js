@@ -1,48 +1,119 @@
-import {v4 as uuidv4} from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
 export const agbData = [
   {
-    id:uuidv4(),
-    title:"§ 1 Geltungsbereich",
-    text:`Für die Geschäftsbeziehungen im Online-Shop zwischen uns, 
-    der AquaFun Soest GmbH, nachfolgend Verkäufer genannt, 
-    und dem Besteller gelten ausschließlich die nachfolgend 
-    aufgeführten allgemeinen Geschäftsbedingungen. 
-    Abweichende Bedingungen des Bestellers erkennt der Verkäufer nicht an. 
-    Abweichende Bedingungen gelten nur in dem Fall der ausdrücklichen und 
-    schriftlichen Zustimmung des Verkäufers. Die für den 
-    Vertragsabschluss zur Verfügung stehenden Texte liegen ausschließlich in deutsch vor.`
+    id: uuidv4(),
+    title: "§1 Leistungsgegenstand",
+    text:[`1.1  Die Schwimmschule 
+    " Swimming from zero to hero" verpflichtet sich, die Kurse nach bestem Wissen und Gewissen und höchstem Sicherheitsstandard durchzuführen.
+    Die Anmeldung/Buchung ist rechtlich verbindlich.?Mit der Anmeldung werden diese Allgemeinen Geschäftsbedingungen anerkannt.?`,
+  `1.2 Die vereinbarte Übungs- u. Betreuungsleistung versteht sich als zeitbestimmte, dienstvertragliche Verpflichtung entsprechend §611 BGB.`]
   },
   {
-    id:uuidv4(),
-    title:"?????????????????????????????????",
-    text:`Für die Geschäftsbeziehungen im Online-Shop zwischen uns, 
-    der AquaFun Soest GmbH, nachfolgend Verkäufer genannt, 
-    und dem Besteller gelten ausschließlich die nachfolgend 
-    aufgeführten allgemeinen Geschäftsbedingungen. 
-    Abweichende Bedingungen des Bestellers erkennt der Verkäufer nicht an. 
-    Abweichende Bedingungen gelten nur in dem Fall der ausdrücklichen und 
-    schriftlichen Zustimmung des Verkäufers. Die für den 
-    Vertragsabschluss zur Verfügung stehenden Texte liegen ausschließlich in deutsch vor.`
+    id: uuidv4(),
+    title: `§2 Übungszeit in den Kursen`,
+    text: [`2.1 Die Dauer der Übungszeit beträgt  45 Minuten.`, `2.2. Bei zu geringer Teilnehmerzahl können Kurse zusammengelegt und somit maximal um 45 Minuten nach vorne oder hinten verschoben werden!
+    `],
   },
   {
-    id:uuidv4(),
-    title:"",
-    text:``
-  }
+    id: uuidv4(),
+    title: "§3 Kursstätte",
+    text: [`3.1 Alle Kurse werden im INI Schwimmbad durchgeführt
+    Adresse: Zur Hepper Höhe 4                                          59505 Bad Sassendorf, Deutschland?`,
+    `3.2 Parkplätze sind ausreichend vorhanden.?`,
+    `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.?`,`3.4 Die Wassertiefe beträgt  0,75 m bis 1,80 m.`,
+    `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind?keine Eltern/Geschwister/Omas etc. im Schwimmbad als Zuschauer zugelassen.`
+  ]
+  },
+  {
+    id: uuidv4(),
+    title: "§4 Sonstige Leistungen",
+    text: [`4.1 Probestunden sind gegen eine einmalige Gebühr von 18€ bei Platzverfügbarkeit möglich.`,
+    `4.2. Bei Platzverfügbarkeit ist auch noch ein Einstieg während des Kurses möglich.` ]
+  },
+  {
+    id: uuidv4(),
+    title: "§5 Haftung",
+    text: [`5.1 Meine Schwimmschule  schließt gegenüber den Teilnehmern jegliche 
+    Haftung für einen Schaden aus, der nicht auf einer grob 
+    fahrlässigen oder vorsätzlichen Pflichtverletzung beruht.`, `5.2 Es besteht eine 
+    Betriebshaftpflichtversicherung , um etwaigen gesetzlichen 
+    Haftungsansprüchen des Teilnehmers zu genügen.`,`5.3 Der Teilnehmer hat sich eigenverantwortlich 
+    gegen Unfälle und Verletzungen, die im Rahmen des 
+    Kurses auftreten können zu versichern. Gleiches gilt für den direkten Weg von und zum Trainingsort.`,
+    `5.4 Der Teilnehmer bzw. Erziehungsberechtigte  versichert,?sportgesund zu sein. Er hat sich in den 
+    letzten drei Monaten bei einem Arzt über seinen oder seines Kindes Gesundheitszustand versichert.?`,
+  `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften für Ihre Kinder.?`,
+`5.6 Meine Schwimmschule übernimmt keine Haftung für Schäden an und den Verlust von Wertgegenständen.
+`]
+  },
+  {
+    id: uuidv4(),
+    title: "§6 Aufsichtspflicht",
+    text: [`6.1 Die Scwimmschule " Swimming from zero to hero" hat die Aufsichtspflicht bei Kursbeginn und vor Kursende. Sie haftet für die Zeit des Schwimmkurses im Wasser. Vor Kursbeginn und nach Kursende ist es die Pflicht der Erziehungsberechtigten ihre Kinder zu beaufsichtigen.
+    Die Schwimmschule " Swimming from zero to hero" übernimmt keine Haftung, wenn den Kindern vor Kursbeginn und nach Kursende etwas passiert.
+    Die Kinder dürfen von den Eltern bis zur Umkleidekabine begleitet werden. Von dort aus werden sie an den Kursleiter übergeben.
+     `]
+  },
+  {
+    id: uuidv4(),
+    title: "§7 Zahlungsbedingungen",
+    text: [`7.1 Die Kursgebühr ist innerhalb einer Woche nach Anmeldung bzw.  nach Erhalt der Bestätigung überweisen. Die Bankdaten, sowie die Zahlungsgebühr, werden nach Anmeldung per email zugesandt. Sollten wir keinen Zahlungseingang erhalten, wird der Kursteilnehmer automatisch vom Unterricht ausgeschlossen. Den Preis entnehmen Sie der Anmeldung bzw. der
+    Kursbeschreibung.?`]
+  },
+  {
+    id: uuidv4(),
+    title: "§8 Stornierung",
+    text: [`8.1 Sie haben ein 14-tägiges Widerrufsrecht ohne Angabe von Gründen, sofern der Kursbeginn die 14 Tage nicht unterschreitet. Die Stornierung muß 
+    schriftlich per e-mail oder per Brief mit Einschreiben erfolgen. Whatsappnachrichten zählen nicht!!  `,
+  `8.2 Rücktritt bis sieben Tage vor Kursbeginn ?ist eine Stornogebühr von 50% fällig. Danach sind KEINE?Rückerstattungen  mehr möglich. Es kann jedoch ein Ersatzteilnehmer gestellt werden.?`,
+`8.3 Auch bei Nichterscheinen oder Kursabbruch erfolgt keine Rückzahlung.`]
+  },
+  {
+    id: uuidv4(),
+    title: "§9 Verhinderung und Ausfall",
+    text: [`9.1 Sollte die Durchführung einer Kurseinheit aufgrund unvorhersehbarer 
+    Umstände( schlechter Wasserqualität, zu geringe Wassertemperatur, Krankheit der Kursleiterin etc.) 
+    zu gefährlich bzw. unmöglich sein, wird der Teilnehmer unverzüglich benachrichtigt und die ausgefallene 
+    Einheit nach Beendigung des Kurses nachgeholt. Bei der Krankheit der/des Kursleiters, wird versucht , 
+    einen Vertrtungslehrer für den Kurs zu finden. Auf eine Erstattung dieser Einheiten besteht KEIN Anspruch. 
+    Jedoch durch eine coronabedingte oder sonstige Schließung des Bades sowie höhere Gewalt bedingte 
+    Ausfälle(Unwetter, Erdbeben, Krieg) können die Einheiten leider nicht nachgeholt und auch nicht 
+    erstattet werden(dies gilt für laufende Kurse).Kurse, die noch nicht gestartet sind werden verschoben, 
+    die Kursplätze bleiben erhalten! `,
+  `9.2 Sollte der Klient an einer Kurseinheit unabhängig von den Gründen nicht teilnehmen können, 
+  besteht kein Anspruch auf Ersatz. Nach Absprache mit  der Schwimmschule " Swimming from zero to hero" 
+  kann aber evtl. ein Ersatzteilnehmer die Einheit übernehmen.
+  Bei einem Vertrauensbruch gegenüber der Schwimmschule " Swimming from zero to hero" 
+  kann es zu einem möglichen Ausschluss des Kursteilnehmers führen.
+  Diesen Ausschluss kann die Schwimmschule entscheiden, und ist somit berechtigt 
+  lediglich anteilig der Kursgebühren und abzüglich der anfallenden Stornierungsgebühr 
+  in Höhe von 30€ , den Betrag zurück zu erstatten .`,
+]
+  },
+  {
+    id: uuidv4(),
+    title: "§10 Geheimhaltung",
+    text: [`10.1 Der Klient verpflichtet sich, über etwaige Geschäfts- und 
+    Betriebsgeheimnisse Stillschweigen zu bewahren, auch über die Beendigung der 
+    Rahmenvereinbarungen hinaus.?`,`10.2 "Swimming from zero tu hero" hat über alle in 
+    Zusammenhang mit der Erfüllung der Trainings- u. Betreuungsmaßnahmen bekannt 
+    gewordenen Informationen des Teilnehmers Stillschweigen zu bewahren.`]
+  },
+
 ]
 
-export const impressumData=[
-{
-  id:uuidv4(),
-  title:"Haftung für Inhalte",
-  text:`Als Diensteanbieter sind wir gemäß § 7 Abs.
+export const impressumData = [
+  {
+    id: uuidv4(),
+    title: "Haftung für Inhalte",
+    text: `Als Diensteanbieter sind wir gemäß § 7 Abs.
   1 TMG für eigene Inhalte auf diesen Seiten nach den 
   allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 
   10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, 
   übermittelte oder gespeicherte fremde Informationen zu überwachen 
   oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.`,
-  subText:`Verpflichtungen zur Entfernung oder 
+    subText: `Verpflichtungen zur Entfernung oder 
   Sperrung der Nutzung von Informationen nach den 
   allgemeinen Gesetzen bleiben hiervon unberührt. 
   Eine diesbezügliche Haftung ist jedoch erst ab dem 
@@ -50,11 +121,11 @@ export const impressumData=[
   Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden 
   wir diese Inhalte umgehend entfernen.
   `,
-},
-{
-  id:uuidv4(),
-  title:"Haftung für Links",
-  text:`Unser Angebot enthält Links zu externen 
+  },
+  {
+    id: uuidv4(),
+    title: "Haftung für Links",
+    text: `Unser Angebot enthält Links zu externen 
   Websites Dritter, auf deren Inhalte wir keinen 
   Einfluss haben. Deshalb können wir für diese fremden 
   Inhalte auch keine Gewähr übernehmen. Für die Inhalte der 
@@ -62,54 +133,130 @@ export const impressumData=[
   der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der 
   Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren 
   zum Zeitpunkt der Verlinkung nicht erkennbar.`,
-  subText:`Eine permanente inhaltliche Kontrolle der verlinkten 
+    subText: `Eine permanente inhaltliche Kontrolle der verlinkten 
   Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung 
   nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir 
   derartige Links umgehend entfernen.`,
-},
-{
-  id:uuidv4(),
-  title:"Urheberrecht",
-  text:`Die durch die Seitenbetreiber erstellten 
+  },
+  {
+    id: uuidv4(),
+    title: "Urheberrecht",
+    text: `Die durch die Seitenbetreiber erstellten 
   Inhalte und Werke auf diesen Seiten unterliegen dem 
   deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, 
   Verbreitung und jede Art der Verwertung außerhalb der Grenzen 
   des Urheberrechtes bedürfen der schriftlichen Zustimmung des 
   jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser 
   Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.`,
-  subText:`Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    subText: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
   erstellt wurden, werden die Urheberrechte Dritter beachtet. 
   Insbesondere werden Inhalte Dritter als solche gekennzeichnet. 
   Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, 
   bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von 
   Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.`,
-}
+  }
 ]
 
 
-export  const kursPlan=[
+
+
+export const kursPlan = [
   {
-    id:uuidv4(),
-    title:"Wir starten mit unseren Anfänger Schwimmkursen",
-    date:"am 15. Januar - 05. März",
-    day:"10 Einheiten, jeden Sonntag",
-    time1:"von 15:00 - 15:45 Uhr",
-    time2:"von 16:00 bis 16:45 Uhr"
+    id: uuidv4(),
+    title: "Wir starten mit unseren Anfänger Schwimmkursen",
+    date: "am 15. Januar - 05. März",
+    day: "10 Einheiten, jeden Sonntag",
+    time1: "von 15:00 - 15:45 Uhr",
+    time2: "von 16:00 bis 16:45 Uhr"
   },
   {
-    id:uuidv4(),
-    title:"Wir starten mit unserem Folge Schwimmkurs",
-    date:"am 12. März - 30. April",
-    day:"8 Trainingseinheiten, jeden Sonntag",
-    time1:"von 17:00 - 17:45 Uhr",
-    time2:""
+    id: uuidv4(),
+    title: "Wir starten mit unserem Folge Schwimmkurs",
+    date: "am 12. März - 30. April",
+    day: "8 Trainingseinheiten, jeden Sonntag",
+    time1: "von 17:00 - 17:45 Uhr",
+    time2: ""
   },
   {
-    id:uuidv4(),
-    title:" Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
-    date:"am 05 Februar - 26. März",
-    day:" 8 Trainingseinheiten, jeden Sonntag",
-    time1:"von 17:00 - 17:45 Uhr ",
-    time2:""
+    id: uuidv4(),
+    title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
+    date: "am 05 Februar - 26. März",
+    day: " 8 Trainingseinheiten, jeden Sonntag",
+    time1: "von 17:00 - 17:45 Uhr ",
+    time2: ""
   }
+]
+
+export const baderegeln = [
+  {
+    id: uuidv4(),
+    number: 1,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. 
+    `
+  },
+  {
+    id: uuidv4(),
+    number: 2,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+  },
+  {
+    id: uuidv4(),
+    number: 3,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet.`
+  },
+  {
+    id: uuidv4(),
+    number: 4,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+  },
+  {
+    id: uuidv4(),
+    number: 5,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet.`
+  },
+  {
+    id: uuidv4(),
+    number: 6,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet.`
+  },
+  {
+    id: uuidv4(),
+    number: 7,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+  },
+  {
+    id: uuidv4(),
+    number: 8,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+  },
+  {
+    id: uuidv4(),
+    number: 9,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+  },
+  {
+    id: uuidv4(),
+    number: 10,
+    title: "kjkhjhjkhjk jkkhkjh",
+    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
+    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+  },
 ]

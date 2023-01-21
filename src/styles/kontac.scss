@@ -1,0 +1,54 @@
+.kontact{
+  background-color:$primaryColor;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+  .container{
+    padding: 3rem;
+
+  .kontact_container{
+    display: flex;
+    padding: 3rem;
+    background-color:$bg;
+    justify-content: center;
+    flex-direction: column;
+    
+    h1{
+      padding: 1rem 0;
+    }
+    .input{
+      padding-top:1rem;
+      display:flex;
+      flex-wrap: wrap;
+      input{
+        padding: 0.7rem;
+        margin-left: 0.5rem;
+        background-color:$primaryColor;
+      &:hover{
+        background-color:$bg;
+      }
+
+      }
+    }
+    div{
+      padding: 1rem 0;
+    .inputText{
+      padding: 1rem ;
+      height: 4rem;
+      font-size: 1rem;
+      background-color:$primaryColor;
+      &:hover{
+        background-color:$bg;
+      }
+    }
+    .btn:hover{
+      color:white;
+      background-color:$hoverColor;
+    }
+  }
+  }
+}
+}

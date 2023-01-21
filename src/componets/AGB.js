@@ -13,7 +13,13 @@ const AGB = () => {
             agbData.map((item) => (
               <div key={item.id} className='agb_item'>
                 <h4 className='agb_subtitle'>{item.title}</h4>
-                <p className='agb_text' >{item.text}</p>
+
+                {
+                  item.text.map((i)=>(
+                    <p className='agb_text' >{i}</p>
+                  ))
+                }
+                
               </div>
             ))
           }
