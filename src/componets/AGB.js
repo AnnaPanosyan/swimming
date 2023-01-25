@@ -15,8 +15,8 @@ const AGB = () => {
                 <h4 className='agb_subtitle'>{item.title}</h4>
 
                 {
-                  item.text.map((i)=>(
-                    <p className='agb_text' >{i}</p>
+                  item.text.map((i, index)=>(
+                    <p key={index} className='agb_text' >{i}</p>
                   ))
                 }
                 

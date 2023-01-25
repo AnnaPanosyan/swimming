@@ -1,7 +1,6 @@
 import React from 'react'
-import { BsArrowRightShort } from "react-icons/bs"
 import { data } from "../utilits/data";
-import { Link} from "react-router-dom";
+import PopularPage from './PopularPage';
 
 const Popular = () => {
   return (
@@ -19,29 +18,7 @@ const Popular = () => {
           {
             data.map((item) => {
               return (
-                <div key={item.id} className='singInDestination'>
-                  <div className='destImage'>
-                    <img src={item.imgSrc} alt="title" />
-                    <div className='overlayInfo'>
-                      <h3>
-                        {item.destTitle}
-                      </h3>
-                      <Link to={`/courses/${item.id}`}>
-                        <BsArrowRightShort className="icon" />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="destFooter">
-                    <div className='number'>
-                      0{item.number}
-                    </div>
-                    <div className='desText'>
-                      <h6>
-                        {item.destTitle}
-                      </h6>
-                    </div>
-                  </div>
-                </div>
+               <PopularPage key={item.id} imgSrc={item.imgSrc} destTitle={item.destTitle} number={item.number} id={item.id}/>
               )
             })}
         </div>

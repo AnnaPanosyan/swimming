@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Kontact = () => {
   return (
-    <form className='kontact'>
+    <div className='kontact'>
       <div className='container'>
         <div className='kontact_container'>
           <h1>Kontakt</h1>
@@ -23,7 +23,7 @@ const Kontact = () => {
           </div>
         </div>
       </div>
-    </form>
+    </div>
   );
 };
 

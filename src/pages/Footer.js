@@ -4,6 +4,8 @@ import {ImFacebook} from "react-icons/im"
 import {Link} from 'react-router-dom'
 import {AiFillInstagram} from 'react-icons/ai'
 import {navlinks, roolsLink} from "../utilits/navlinks";
+import Map from '../componets/Map'
+
 
 const Footer = () => {
   return (
@@ -43,6 +45,15 @@ const Footer = () => {
               <a href='tel:+ 49 17624310872' className="phone">+ 49 17624310872</a>
               <a href='mailto:fromzerotohero@gmail.com' className="email">fromzerotohero@gmail.com</a>
             </div>
+
+            <div className="footer_contacts">
+              <h4 className="linkTitle">Anschrift</h4>
+              <p>INI Gesamtschule Bad Sassendorf</p>
+              <p>Zur Hepper Höhe 4</p>
+              <p>59505 Bad Sassendorf</p>
+              <Map/>
+            </div>
+            
           </div>
           <div className='footer_rolls'>
             <ul>

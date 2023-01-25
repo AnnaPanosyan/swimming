@@ -11,6 +11,7 @@ import PageNotFound from "./pages/PageNotFound";
 import AGB from "./componets/AGB";
 import Impressum from "./componets/Impressum";
 import Courses from "./componets/Courses";
+import Datenschutz from "./componets/Datenschutz";
 
 
 function App() {
@@ -26,12 +27,10 @@ function App() {
         <Route path='feedback' element={<Feedback />} />
         <Route path='baderegeln' element={<Baderegeln />} />
         <Route path='*' element={<PageNotFound />} />
-        {/* <Route path='curses' element={<Courses/>}/> */}
-        <Route path='courses' element={<Home/>} />
-
         <Route path='courses/:id' element={<Courses />} />
         <Route path='AGB' element={<AGB />} />
         <Route path='impressum' element={<Impressum />} />
+        <Route path="datenschutz" element={<Datenschutz/>}/>
 
       </Route>
     </Routes>

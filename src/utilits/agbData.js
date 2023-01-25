@@ -191,72 +191,73 @@ export const baderegeln = [
   {
     id: uuidv4(),
     number: 1,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. 
-    `
+    text: ". Niemals mit vollem oder ganz leerem Magen baden !",
   },
   {
     id: uuidv4(),
     number: 2,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+    text: `. Kühle dich ab, wenn du ins Wasser gehst und verlasse das Wasser sofort, wenn dir kalt ist ! `,
   },
   {
     id: uuidv4(),
     number: 3,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet.`
+    text: `. Als Nichtschwimmer nur bis zur Brust ins Wasser gehen !`
   },
   {
     id: uuidv4(),
     number: 4,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+    text: `. Nur springen, wenn dass Wasser unter dir tief genug und frwi ist !`
   },
   {
     id: uuidv4(),
     number: 5,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet.`
+    text: `. Unbekannte Ufer bergen Gefahren !`
   },
   {
     id: uuidv4(),
     number: 6,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet.`
+    text:`. Ziehen nach dem Baden das Badezeug aus und trockne dich ab !    `
   },
   {
     id: uuidv4(),
     number: 7,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+    text: `. Meide zu intensive Sonnenbäder ! `
   },
   {
     id: uuidv4(),
     number: 8,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+    text:`. Rufe nie um Hilfe, wenn du nicht wirklich in Gefahr bist, aber hilf anderen, wenn Hilfe gebraucht wird !    `
   },
   {
     id: uuidv4(),
     number: 9,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+    text: `. Verunreinigen das Wasser nicht und verhalte dich hygienisch !`
   },
   {
     id: uuidv4(),
     number: 10,
-    title: "kjkhjhjkhjk jkkhkjh",
-    text: `Soweit die Inhalte auf dieser Seite nicht vom Betreiber 
-    erstellt wurden, werden die Urheberrechte Dritter beachtet. `
+    text:`. Nimm Rücksicht auf andere Badende, besonders auf kleine Kinder !    `
   },
+  {
+    id: uuidv4(),
+    number: 11,
+    text:`. Meide sumpfige und pflanzendurchwachsene Gewässer !
+    `
+  },
+  {
+    id: uuidv4(),
+    number: 12,
+    text:`. Überschätze im freien Gewässer nicht Kraft und Können !`
+  },
+  {
+    id: uuidv4(),
+    number: 13,
+    text:`. Schwimmen und Baden am Meeresküsten sind mit besonderen Gefahren verbunden: Frage zunächst Ortskundige ,bevor du ins Wasser gehst !    `
+  },
+  {
+    id: uuidv4(),
+    number: 14,
+    text:`. Luftmatratze, Autoschlauch und Gummitiere sind im Wasser gefährliches Spielzeug !`
+  }
+
 ]

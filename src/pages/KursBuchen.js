@@ -1,30 +1,25 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
-import Stack from '@mui/material/Stack';
+
+import { Checkbox, FormControl, InputLabel, NativeSelect } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
-
-const top100Films = [
-  { title: 'The Shawshank Redemption', year: 1994 },
-  { title: 'The Godfather', year: 1972 },
-  { title: 'The Godfather: Part II', year: 1974 },
-  { title: 'The Dark Knight', year: 2008 },]
-
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 const KursBuchen = () => {
 
-  
-  
   return (
+    <div className="kursBuchen">
     <div className='container'>
       <h1>Kurs Buchen</h1>
      <>
      <Box
+     className='box'
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
+        '& .MuiTextField-root': { m: 1, width: '26ch' },
       }}
       noValidate
       autoComplete="off"
@@ -33,74 +28,123 @@ const KursBuchen = () => {
         <TextField
           required
           id="filled-required"
-          label="Required"
+          label="Familienname"
           defaultValue=""
           variant="filled"
         />
          <TextField
           required
           id="filled-required"
-          label="Required"
+          label="Vorname (Kursteilnehmer)"
           defaultValue=""
           variant="filled"
         />
-       
+         </div>
+        <div>
         <TextField
-          id="filled-password-input"
-          label="Password"
-          type="password"
-          autoComplete="current-password"
+          id="filled-phone-input"
+          label="Telefonnummer"
+          type="number"
           variant="filled"
         />
         <TextField
           id="filled-email-input"
-          label="Email"
+          label="E-Mail"
           type="email"
-          autoComplete="current-password"
+          autoComplete="current-email"
           variant="filled"
         />
+         </div>
+
         <TextField
           id="filled-number"
-          label="Number"
+          label="Alter (Kursteilnehmer)"
           type="number"
           InputLabelProps={{
             shrink: true,
           }}
           variant="filled"
         /> 
-      </div>
-      <Stack spacing={2} sx={{ width: 300 }}>
-      <Autocomplete
-        id="free-solo-demo"
-        freeSolo
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => <TextField {...params} label="freeSolo" />}
-      />
-      <Autocomplete
-        id="free-solo-demo"
-        freeSolo
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => <TextField {...params} label="freeSolo" />}
-      />
-      <Autocomplete
-        id="free-solo-demo"
-        freeSolo
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => <TextField {...params} label="freeSolo" />}
-      />
-     
-    </Stack>
+      
+
+<Box sx={{ minWidth: 120, m:2}}>
+      <FormControl fullWidth sx={{m:1}} >
+        <InputLabel variant="standard" htmlFor="uncontrolled-native">
+          Geschlecht
+        </InputLabel>
+        <NativeSelect
+          defaultValue={30}
+          inputProps={{
+            name: 'geschlecht',
+            id: 'uncontrolled-native',
+          }}
+        >
+          <option value={10}>weiblich</option>
+          <option value={20}>männlich</option>
+        </NativeSelect>
+      </FormControl>
+      <FormControl fullWidth sx={{m:1}}>
+        <InputLabel variant="standard" htmlFor="uncontrolled-native" >
+          Schwimmerfahrung
+        </InputLabel>
+        <NativeSelect
+          defaultValue={30}
+          inputProps={{
+            name: 'schwimmerfahrung',
+            id: 'uncontrolled-native',
+          }}
+        >
+          <option value={10}>ohne Erfahrung</option>
+          <option value={20}>wenig Erfahrung</option>
+          <option value={30}>mit Erfahrung</option>
+        </NativeSelect>
+      </FormControl>
+      <FormControl fullWidth sx={{m:1}}>
+        <InputLabel variant="standard" htmlFor="uncontrolled-native">
+            Kurse
+        </InputLabel>
+        <NativeSelect
+          defaultValue={30}
+          inputProps={{
+            name: 'kurse',
+            id: 'uncontrolled-native',
+          }}
+        >
+          <option value={10}>Anfänger Schwimmkursen</option>
+          <option value={20}> Folge Schwimmkurs </option>
+          <option value={30}>Bronze, Silber und Gold Schwimmkursen</option>
+        </NativeSelect>
+      </FormControl>
+    </Box>
    <TextField
           id="filled-helperText"
-          label="Helper text"
+          label="Nachricht"
           defaultValue="Default Value"
           helperText="Some important text"
           variant="filled"
+          style={{ maxWidth: 550,}}
         />
+        <p className='text'> <b>Hinweis:</b> Nach dem Einsenden Ihrer Kontaktdaten erhalten Sie von 
+          uns die Zahlungsmöglichkeiten per E-Mail.
+        </p>
+        <div className='daten'>
+        <p>Wir verwenden Ihre Daten ausschließlich gemäß unserer</p>
+        <Link to="/datenschutz">Datenschutzhinweise/-erklärung.</Link>
+        </div>
+        <div className='checkbox'>
+      <Checkbox
+        {...label}
+        defaultChecked
+        sx={{ '& .MuiSvgIcon-root': { fontSize: 28 } }}
+      />
+      <Link to='/AGB'>
+      <p>Ich akzeptiere di</p>
+        Allgemeinen Geschäftsbedingungen (AGB)</Link>
+    </div>
     </Box>
- 
+    <button className='btn'>Senden</button>
      </>    
-
+    </div>
     </div>
   )
 }

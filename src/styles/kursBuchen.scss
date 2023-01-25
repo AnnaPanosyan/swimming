@@ -1,0 +1,29 @@
+.kursBuchen {
+  background-color: $primaryColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .container {
+    padding: 2rem;
+    margin: 3rem 0;
+    background-color: $bg;
+    h1 {
+      margin: 2rem 0;
+    }
+    .text {
+      font-size: 12px;
+      margin-bottom: 2rem;
+    }
+    .daten {
+      margin-bottom: 2rem;
+      font-size: 14px;
+    }
+    .checkbox {
+      display: flex;
+      margin-bottom: 2rem;
+      font-size: 14px;
+
+    }
+  }
+}

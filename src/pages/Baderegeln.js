@@ -12,7 +12,6 @@ const Baderegeln = () => {
           {
             baderegeln.map((item) => (
               <div key={item.id} className='baderegeln_item'>
-                <h4 className='title'>{item.number}.  {item.title}</h4>
                 <p className='text' >{item.text}</p>
               </div>
             ))

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { AiFillClockCircle, AiFillEuroCircle, AiOutlineUsergroupAdd } from 'react-icons/ai'
-import {TiArrowBack} from  'react-icons/ti';
 import { TbSwimming } from 'react-icons/tb';
 import { Link, useParams } from 'react-router-dom';
 import { data } from "../utilits/data";
@@ -14,20 +13,18 @@ const Courses = () => {
 
   useEffect(() => {
     setCours(
-      data.filter((item) => (item.id == id))[0])
+      data.filter(item => (item.id == id))[0])
+
   }, [id]);
+
   return (
-    <div>
+    <div >
       {
         cours && (
-
-          <section className='courses'>
+          <section className='courses' key={id} >
             <div className="container">
               <div className="courses_section">
                 <h2 className='secTitle'>
-                <Link to=''>
-                        <TiArrowBack className="icon" />
-                      </Link>
                   Wir bieten Folgende schwimmkurse an
                 </h2>
                 <div >
@@ -72,8 +69,8 @@ const Courses = () => {
                       </h2>
                       <ul className='courses_list'>
                         {
-                          cours.rouls.map((item) => (
-                            <li key={item.id} className='courses_item'>
+                          cours.rouls.map((item,index) => (
+                            <li key={index} className='courses_item'>
                               <BsCheck2All className="icon" />
                               {item}
                             </li>
