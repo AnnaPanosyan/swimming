@@ -50,6 +50,71 @@ export const data = [
     kids: "von 8-12 Kinder",
     preis: "Preis 180"
   },
+
+//   ----3data----
+
+
+// Bronze-, Silber- und Goldkurs
+
+// von 6 - 14 Jahre
+
+
+// dieser ist ein Kurs für diejenigen, die bereits schwimmen können und das Seepferdchen Schwimmabzeichen besitzen.
+//  Jedes Kind muss sich ohne Hilfsmittel über Wasser halten können. 
+// im Bronzekurs werden die Kinder ihre bereits erlernten Fähigkeiten  verbessern und Kondition aufbauen, vor allem das Brustschwimmen wird gefestigt.
+
+// erst mit dem Erwerb des DSA Bronze gilt ihr Kind als sichere/r Schwimmer/in.
+
+
+// Anforderungen zum Schwimmabzeichen Bronze:
+
+// . Sprung Kopfwärts vom Beckenrand und 15 Minuten Schwimmen. In dieser Zeit sind mindestens 200 m zurückzulegen, davon 150 m in Bauch- oder Rückenlage in einer erkennbaren Schwimmart und 50 m in der anderen Körperlage (Wechsel der Körperlage während des Schwimmens auf der Schwimmbahn ohne Festhalten).
+
+// . einmal ca. 2 m Tieftauchen von der Wasseroberfläche und einen Tauchring heraufholen.
+
+// . ein Paketsprung vom Startblock oder 1 m- Brett
+
+// . Baderegeln
+
+
+
+
+// Bei den Silber-und Goldkurse, wird  das Gelerntes nochmal vertieft.
+// Der Kurs ist anspruchsvoller, d.h. hier werden z.B. Rückenschwimmen und Kraulen erlernt und geübt, sowie Streckentauchen. Schwimmsicherheit, Ausdauer und Muskelkraft werden weiter ausgebaut.
+// In unseren Silber- und Goldkurse dürfen Kinder ab 9 Jahren teilnehmen.
+
+
+// Anforderungen zum Silber- und Goldkurse:
+
+// Silber:
+
+// . Sprung Kopfwärts vom Beckenrand und 20 Minuten Schwimmen. In dieser Zeit sind mindestens 400 m zurückzulegen, davon 300 m in Bauch- oder Rückenlage in einer erkennbaren Schwimmart und 100 m in der anderen Körperlage ( Wechsel der Körperlage während des Schwimmens auf der Schwimmbahn ohne Festhalten)
+
+// . zweimal ca. 2 m Tieftauchen von der Wasseroberfläche mit Heraufholen je eines Gegenstandes (z.B kleiner Tauchring)
+
+// . 10 m Streckentauchen mit Abstoßen vom Beckenrand im Wasser.
+
+// . Sprung aus 3 m Höhe oder zwei verschiedene Sprünge aus 1 m Höhe
+
+
+// Gold:
+
+// . Sprung Kopfwärts vom Beckenrand und 30 Minuten Schwimmen. In dieser Zeit sind mindestens 800 m zurückzulegen, davon 650 m in den Bauch- oder Rückenlage in einer erkennbaren Schwimmart und 150 m in der anderen Körperlage (Wechsel der Körperlage während des Schwimmens auf der Schwimmbahn ohne Festhalten)
+
+// . Startsprung und 25 m Kraulschwimmen
+
+// . Startsprung und 50 m Brustschwimmen in höchstens 1:15 Minuten
+
+// . 50 m Rückenschwimmen mit Grätschschwung ohne Armtätigkeit oder Rückenkraulschwimmen
+
+// . 10 m streckentauchen aus der Schwimmlage (ohne Abstoßen vom Beckenrand)
+
+// . Dreimal ca. 2m Tieftauchen von der Wasseroberfläche mit Heraufholen je eines Gegenstandes (z.B.: kleiner Tauchring) innerhalb von 3 Minuten
+
+// . ein Sprung aus 3 m Höhe oder zwei verschiedene Sprünge aus 1 m Höhe
+
+// . 50 m Transport schwimmen: Schieben oder Ziehen
+
   {
     id: 3,
     number: "03",
@@ -73,8 +138,6 @@ export const data = [
       `ein Paketsprung vom Startblock oder 1 m- Brett`,
       `Baderegeln`
     ],
-    top: ['hiuhh'],
-
     duration: "45 Minuten",
     lessons: "8 Trainingseinheiten",
     kids: "von 8-12 Kinder",
