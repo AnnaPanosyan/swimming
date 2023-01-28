@@ -25,7 +25,7 @@ const Courses = () => {
             <div className="container">
               <div className="courses_section">
                 <h2 className='secTitle'>
-                  Wir bieten Folgende schwimmkurse an
+                  Wir bieten folgende Schwimmkurse an
                 </h2>
                 <div >
                   <div className='courses_description'>

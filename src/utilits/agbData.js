@@ -5,24 +5,32 @@ export const agbData = [
     id: uuidv4(),
     title: "§1 Leistungsgegenstand",
     text:[`1.1  Die Schwimmschule 
-    " Swimming from zero to hero" verpflichtet sich, die Kurse nach bestem Wissen und Gewissen und höchstem Sicherheitsstandard durchzuführen.
-    Die Anmeldung/Buchung ist rechtlich verbindlich.?Mit der Anmeldung werden diese Allgemeinen Geschäftsbedingungen anerkannt.?`,
-  `1.2 Die vereinbarte Übungs- u. Betreuungsleistung versteht sich als zeitbestimmte, dienstvertragliche Verpflichtung entsprechend §611 BGB.`]
+    " Swimming from zero to hero" verpflichtet sich, die Kurse nach bestem Wissen und Gewissen und höchstem
+     Sicherheitsstandard durchzuführen.
+    Die Anmeldung/Buchung ist rechtlich verbindlich.?Mit der Anmeldung werden diese 
+    Allgemeinen Geschäftsbedingungen anerkannt.`,
+  `1.2 Die vereinbarte Übungs- u. Betreuungsleistung versteht sich als zeitbestimmte, 
+  dienstvertragliche Verpflichtung entsprechend §611 BGB.`]
   },
   {
     id: uuidv4(),
     title: `§2 Übungszeit in den Kursen`,
-    text: [`2.1 Die Dauer der Übungszeit beträgt  45 Minuten.`, `2.2. Bei zu geringer Teilnehmerzahl können Kurse zusammengelegt und somit maximal um 45 Minuten nach vorne oder hinten verschoben werden!
+    text: [`2.1 Die Dauer der Übungszeit beträgt  45 Minuten.`, `2.2. Bei zu geringer 
+    Teilnehmerzahl können Kurse zusammengelegt und somit maximal um 45 Minuten nach vorne oder 
+    hinten verschoben werden!
     `],
   },
   {
     id: uuidv4(),
     title: "§3 Kursstätte",
     text: [`3.1 Alle Kurse werden im INI Schwimmbad durchgeführt
-    Adresse: Zur Hepper Höhe 4                                          59505 Bad Sassendorf, Deutschland?`,
-    `3.2 Parkplätze sind ausreichend vorhanden.?`,
-    `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.?`,`3.4 Die Wassertiefe beträgt  0,75 m bis 1,80 m.`,
-    `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind?keine Eltern/Geschwister/Omas etc. im Schwimmbad als Zuschauer zugelassen.`
+    Adresse: Zur Hepper Höhe 4                                          
+    59505 Bad Sassendorf, Deutschland`,
+    `3.2 Parkplätze sind ausreichend vorhanden.`,
+    `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.`,`3.4 Die Wassertiefe beträgt  
+    0,75 m bis 1,80 m.`,
+    `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind?keine 
+    Eltern/Geschwister/Omas etc. im Schwimmbad als Zuschauer zugelassen.`
   ]
   },
   {
@@ -41,32 +49,44 @@ export const agbData = [
     Haftungsansprüchen des Teilnehmers zu genügen.`,`5.3 Der Teilnehmer hat sich eigenverantwortlich 
     gegen Unfälle und Verletzungen, die im Rahmen des 
     Kurses auftreten können zu versichern. Gleiches gilt für den direkten Weg von und zum Trainingsort.`,
-    `5.4 Der Teilnehmer bzw. Erziehungsberechtigte  versichert,?sportgesund zu sein. Er hat sich in den 
-    letzten drei Monaten bei einem Arzt über seinen oder seines Kindes Gesundheitszustand versichert.?`,
-  `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften für Ihre Kinder.?`,
+    `5.4 Der Teilnehmer bzw. Erziehungsberechtigte versichert,sportgesund zu sein. Er hat sich in den 
+    letzten drei Monaten bei einem Arzt über seinen oder seines Kindes Gesundheitszustand versichert.`,
+  `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften für Ihre Kinder.`,
 `5.6 Meine Schwimmschule übernimmt keine Haftung für Schäden an und den Verlust von Wertgegenständen.
 `]
   },
   {
     id: uuidv4(),
     title: "§6 Aufsichtspflicht",
-    text: [`6.1 Die Scwimmschule " Swimming from zero to hero" hat die Aufsichtspflicht bei Kursbeginn und vor Kursende. Sie haftet für die Zeit des Schwimmkurses im Wasser. Vor Kursbeginn und nach Kursende ist es die Pflicht der Erziehungsberechtigten ihre Kinder zu beaufsichtigen.
-    Die Schwimmschule " Swimming from zero to hero" übernimmt keine Haftung, wenn den Kindern vor Kursbeginn und nach Kursende etwas passiert.
-    Die Kinder dürfen von den Eltern bis zur Umkleidekabine begleitet werden. Von dort aus werden sie an den Kursleiter übergeben.
+    text: [`6.1 Die Scwimmschule " Swimming from zero to hero" hat die Aufsichtspflicht 
+    bei Kursbeginn und vor Kursende. Sie haftet für die Zeit des Schwimmkurses im Wasser. 
+    Vor Kursbeginn und nach Kursende ist es die Pflicht der Erziehungsberechtigten ihre Kinder 
+    zu beaufsichtigen.
+    Die Schwimmschule " Swimming from zero to hero" übernimmt keine Haftung, wenn den Kindern 
+    vor Kursbeginn und nach Kursende etwas passiert.
+    Die Kinder dürfen von den Eltern bis zur Umkleidekabine begleitet werden. Von dort 
+    aus werden sie an den Kursleiter übergeben.
      `]
   },
   {
     id: uuidv4(),
     title: "§7 Zahlungsbedingungen",
-    text: [`7.1 Die Kursgebühr ist innerhalb einer Woche nach Anmeldung bzw.  nach Erhalt der Bestätigung überweisen. Die Bankdaten, sowie die Zahlungsgebühr, werden nach Anmeldung per email zugesandt. Sollten wir keinen Zahlungseingang erhalten, wird der Kursteilnehmer automatisch vom Unterricht ausgeschlossen. Den Preis entnehmen Sie der Anmeldung bzw. der
-    Kursbeschreibung.?`]
+    text: [`7.1 Die Kursgebühr ist innerhalb einer Woche nach Anmeldung bzw.  
+    nach Erhalt der Bestätigung überweisen. Die Bankdaten, sowie die Zahlungsgebühr, 
+    werden nach Anmeldung per email zugesandt. Sollten wir keinen Zahlungseingang erhalten, 
+    wird der Kursteilnehmer automatisch vom Unterricht ausgeschlossen.
+    Den Preis entnehmen Sie der Anmeldung bzw. der
+    Kursbeschreibung.`]
   },
   {
     id: uuidv4(),
     title: "§8 Stornierung",
-    text: [`8.1 Sie haben ein 14-tägiges Widerrufsrecht ohne Angabe von Gründen, sofern der Kursbeginn die 14 Tage nicht unterschreitet. Die Stornierung muß 
-    schriftlich per e-mail oder per Brief mit Einschreiben erfolgen. Whatsappnachrichten zählen nicht!!  `,
-  `8.2 Rücktritt bis sieben Tage vor Kursbeginn ?ist eine Stornogebühr von 50% fällig. Danach sind KEINE?Rückerstattungen  mehr möglich. Es kann jedoch ein Ersatzteilnehmer gestellt werden.?`,
+    text: [`8.1 Sie haben ein 14-tägiges Widerrufsrecht ohne Angabe von Gründen, 
+    sofern der Kursbeginn die 14 Tage nicht unterschreitet. Die Stornierung muß 
+    schriftlich per e-mail oder per Brief mit Einschreiben erfolgen. Whatsappnachrichten 
+    zählen nicht!!`,
+  `8.2 Rücktritt bis sieben Tage vor Kursbeginn ist eine Stornogebühr von 50% fällig. 
+  Danach sind KEINE Rückerstattungen mehr möglich. Es kann jedoch ein Ersatzteilnehmer gestellt werden.`,
 `8.3 Auch bei Nichterscheinen oder Kursabbruch erfolgt keine Rückzahlung.`]
   },
   {
@@ -96,7 +116,7 @@ export const agbData = [
     title: "§10 Geheimhaltung",
     text: [`10.1 Der Klient verpflichtet sich, über etwaige Geschäfts- und 
     Betriebsgeheimnisse Stillschweigen zu bewahren, auch über die Beendigung der 
-    Rahmenvereinbarungen hinaus.?`,`10.2 "Swimming from zero tu hero" hat über alle in 
+    Rahmenvereinbarungen hinaus.`,`10.2 "Swimming from zero tu hero" hat über alle in 
     Zusammenhang mit der Erfüllung der Trainings- u. Betreuungsmaßnahmen bekannt 
     gewordenen Informationen des Teilnehmers Stillschweigen zu bewahren.`]
   },
