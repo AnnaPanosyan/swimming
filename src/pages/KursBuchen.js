@@ -107,6 +107,7 @@ const KursBuchen = () => {
             </InputLabel>
             <NativeSelect
               defaultValue={""}
+              required
               inputProps={{
                 name: "geschlecht",
                 id: "uncontrolled-native",
@@ -121,6 +122,7 @@ const KursBuchen = () => {
               Schwimmerfahrung
             </InputLabel>
             <NativeSelect
+              required
               defaultValue={""}
               inputProps={{
                 name: "schwimmerfahrung",
@@ -137,6 +139,7 @@ const KursBuchen = () => {
               Kurse
             </InputLabel>
             <NativeSelect
+              required
               defaultValue={""}
               inputProps={{
                 name: "kurse",
@@ -173,6 +176,7 @@ const KursBuchen = () => {
           <div className="checkbox">
             <Checkbox
               {...label}
+              required
               sx={{ "& .MuiSvgIcon-root": { fontSize: 28 } }}
               name="checkbox"
             />

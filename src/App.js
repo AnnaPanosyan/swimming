@@ -5,7 +5,7 @@ import Main from "./pages/Main";
 import KursBuchen from "./pages/KursBuchen";
 import Kursplan from "./pages/Kursplan";
 import Kontact from "./pages/Kontakt";
-import Feedback from "./pages/Feedback";
+// import Feedback from "./pages/Feedback";
 import Baderegeln from "./pages/Baderegeln";
 import PageNotFound from "./pages/PageNotFound";
 import AGB from "./componets/AGB";
@@ -24,7 +24,7 @@ function App() {
         <Route path='kursbuchen' element={<KursBuchen />} />
         <Route path='kursplan' element={<Kursplan />} />
         <Route path='kontact' element={<Kontact />} />
-        <Route path='feedback' element={<Feedback />} />
+        {/* <Route path='feedback' element={<Feedback />} /> */}
         <Route path='baderegeln' element={<Baderegeln />} />
         <Route path='*' element={<PageNotFound />} />
         <Route path='courses/:id' element={<Courses />} />

@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="footer_contacts">
               <h4 className="linkTitle"> Kontaktiere uns </h4>
               <a href='tel:+ 49 17624310872' className="phone">+ 49 17624310872</a>
-              <a href='mailto:schwimmschulefromzerotohero@gmail.com' className="email">schwimmschulefromzerotohero@gmail.com</a>
+              <a href='mailto:swimmzerotohero@gmail.com' className="email">swimmzerotohero@gmail.com</a>
             </div>
 
             <div className="footer_contacts">

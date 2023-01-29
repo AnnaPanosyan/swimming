@@ -17,7 +17,7 @@ const Impressum = () => {
               <h4 className="linkTitle">59505 Bad Sassendorf</h4>
               <h4  className='links'>
               <a href='tel:+ 49 17624310872' className="phone">Mobil: + 49 17624310872</a>
-              <a href='mailto:test@gmail.com' className="email">Email: fromzerotohero@gmail.com</a>
+              <a href='mailto:swimmzerotohero@gmail.com' className="email">Email: swimmzerotohero@gmail.com</a>
               </h4>
             </div>
 

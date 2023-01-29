@@ -19,11 +19,12 @@ export const navlinks = [
     id: uuidv4(),
     link: 'Kontakt',
     to: 'kontact'
-  }, {
-    id: uuidv4(),
-    link: 'Feedback',
-    to: 'feedback'
   },
+  //  {
+  //   id: uuidv4(),
+  //   link: 'Feedback',
+  //   to: 'feedback'
+  // },
   {
     id: uuidv4(),
     link: 'Baderegeln',
