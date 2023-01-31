@@ -14,7 +14,6 @@ const Courses = () => {
   useEffect(() => {
     setCours(
       data.filter(item => (item.id == id))[0])
-
   }, [id]);
 
   return (
@@ -59,25 +58,29 @@ const Courses = () => {
                     </div>
                   </div>
                   <div className='about_cours'>
-                    <div>
-                      <h2 className='courses_title'>Über diesen Kurs</h2>
-                      <span>{cours.about}</span>
-                    </div>
-                    <div className='courses_rule'>
-                      <h2 className='courses_title'>
-                        {cours.subTitle}
-                      </h2>
-                      <ul className='courses_list'>
-                        {
-                          cours.rouls.map((item,index) => (
-                            <li key={index} className='courses_item'>
-                              <BsCheck2All className="icon" />
-                              {item}
-                            </li>
-                          ))
-                        }
-                      </ul>
-                    </div>
+                    <h2 className='courses_title'>Über diesen Kurs</h2>
+                    {
+                      cours.description.map((item) => (
+                        <div>
+                          <span>{item.about}</span>
+                          <div className='courses_rule'>
+                            <h2 className='courses_title'>
+                              {item.subTitle}
+                            </h2>
+                            <ul className='courses_list'>
+                              {
+                                item.rouls.map((item, index) => (
+                                  <li key={index} className='courses_item'>
+                                    <BsCheck2All className="icon" />
+                                    {item}
+                                  </li>
+                                ))
+                              }
+                            </ul>
+                          </div>
+                        </div>
+                      ))
+                    }
                   </div>
                 </div>
               </div>
