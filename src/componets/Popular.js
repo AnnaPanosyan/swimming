@@ -10,9 +10,6 @@ const Popular = () => {
           <h2 className='secTitle'>
             Wir bieten Folgende schwimmkurse an
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet.
-          </p>
         </div>
         <div className='mainContent'>
           {

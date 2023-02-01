@@ -4,12 +4,12 @@ export const agbData = [
   {
     id: uuidv4(),
     title: "§1 Leistungsgegenstand",
-    text:[`1.1  Die Schwimmschule 
+    text: [`1.1  Die Schwimmschule 
     " Swimming from zero to hero" verpflichtet sich, die Kurse nach bestem Wissen und Gewissen und höchstem
      Sicherheitsstandard durchzuführen.
     Die Anmeldung/Buchung ist rechtlich verbindlich.?Mit der Anmeldung werden diese 
     Allgemeinen Geschäftsbedingungen anerkannt.`,
-  `1.2 Die vereinbarte Übungs- u. Betreuungsleistung versteht sich als zeitbestimmte, 
+      `1.2 Die vereinbarte Übungs- u. Betreuungsleistung versteht sich als zeitbestimmte, 
   dienstvertragliche Verpflichtung entsprechend §611 BGB.`]
   },
   {
@@ -26,18 +26,18 @@ export const agbData = [
     text: [`3.1 Alle Kurse werden im INI Schwimmbad durchgeführt
     Adresse: Zur Hepper Höhe 4                                          
     59505 Bad Sassendorf, Deutschland`,
-    `3.2 Parkplätze sind ausreichend vorhanden.`,
-    `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.`,`3.4 Die Wassertiefe beträgt  
+      `3.2 Parkplätze sind ausreichend vorhanden.`,
+      `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.`, `3.4 Die Wassertiefe beträgt  
     0,75 m bis 1,80 m.`,
-    `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind?keine 
+      `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind?keine 
     Eltern/Geschwister/Omas etc. im Schwimmbad als Zuschauer zugelassen.`
-  ]
+    ]
   },
   {
     id: uuidv4(),
     title: "§4 Sonstige Leistungen",
     text: [`4.1 Probestunden sind gegen eine einmalige Gebühr von 18€ bei Platzverfügbarkeit möglich.`,
-    `4.2. Bei Platzverfügbarkeit ist auch noch ein Einstieg während des Kurses möglich.` ]
+      `4.2. Bei Platzverfügbarkeit ist auch noch ein Einstieg während des Kurses möglich.`]
   },
   {
     id: uuidv4(),
@@ -46,13 +46,13 @@ export const agbData = [
     Haftung für einen Schaden aus, der nicht auf einer grob 
     fahrlässigen oder vorsätzlichen Pflichtverletzung beruht.`, `5.2 Es besteht eine 
     Betriebshaftpflichtversicherung , um etwaigen gesetzlichen 
-    Haftungsansprüchen des Teilnehmers zu genügen.`,`5.3 Der Teilnehmer hat sich eigenverantwortlich 
+    Haftungsansprüchen des Teilnehmers zu genügen.`, `5.3 Der Teilnehmer hat sich eigenverantwortlich 
     gegen Unfälle und Verletzungen, die im Rahmen des 
     Kurses auftreten können zu versichern. Gleiches gilt für den direkten Weg von und zum Trainingsort.`,
-    `5.4 Der Teilnehmer bzw. Erziehungsberechtigte versichert,sportgesund zu sein. Er hat sich in den 
+      `5.4 Der Teilnehmer bzw. Erziehungsberechtigte versichert,sportgesund zu sein. Er hat sich in den 
     letzten drei Monaten bei einem Arzt über seinen oder seines Kindes Gesundheitszustand versichert.`,
-  `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften für Ihre Kinder.`,
-`5.6 Meine Schwimmschule übernimmt keine Haftung für Schäden an und den Verlust von Wertgegenständen.
+      `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften für Ihre Kinder.`,
+      `5.6 Meine Schwimmschule übernimmt keine Haftung für Schäden an und den Verlust von Wertgegenständen.
 `]
   },
   {
@@ -85,9 +85,9 @@ export const agbData = [
     sofern der Kursbeginn die 14 Tage nicht unterschreitet. Die Stornierung muß 
     schriftlich per e-mail oder per Brief mit Einschreiben erfolgen. Whatsappnachrichten 
     zählen nicht!!`,
-  `8.2 Rücktritt bis sieben Tage vor Kursbeginn ist eine Stornogebühr von 50% fällig. 
+      `8.2 Rücktritt bis sieben Tage vor Kursbeginn ist eine Stornogebühr von 50% fällig. 
   Danach sind KEINE Rückerstattungen mehr möglich. Es kann jedoch ein Ersatzteilnehmer gestellt werden.`,
-`8.3 Auch bei Nichterscheinen oder Kursabbruch erfolgt keine Rückzahlung.`]
+      `8.3 Auch bei Nichterscheinen oder Kursabbruch erfolgt keine Rückzahlung.`]
   },
   {
     id: uuidv4(),
@@ -101,7 +101,7 @@ export const agbData = [
     Ausfälle(Unwetter, Erdbeben, Krieg) können die Einheiten leider nicht nachgeholt und auch nicht 
     erstattet werden(dies gilt für laufende Kurse).Kurse, die noch nicht gestartet sind werden verschoben, 
     die Kursplätze bleiben erhalten! `,
-  `9.2 Sollte der Klient an einer Kurseinheit unabhängig von den Gründen nicht teilnehmen können, 
+      `9.2 Sollte der Klient an einer Kurseinheit unabhängig von den Gründen nicht teilnehmen können, 
   besteht kein Anspruch auf Ersatz. Nach Absprache mit  der Schwimmschule " Swimming from zero to hero" 
   kann aber evtl. ein Ersatzteilnehmer die Einheit übernehmen.
   Bei einem Vertrauensbruch gegenüber der Schwimmschule " Swimming from zero to hero" 
@@ -109,14 +109,14 @@ export const agbData = [
   Diesen Ausschluss kann die Schwimmschule entscheiden, und ist somit berechtigt 
   lediglich anteilig der Kursgebühren und abzüglich der anfallenden Stornierungsgebühr 
   in Höhe von 30€ , den Betrag zurück zu erstatten .`,
-]
+    ]
   },
   {
     id: uuidv4(),
     title: "§10 Geheimhaltung",
     text: [`10.1 Der Klient verpflichtet sich, über etwaige Geschäfts- und 
     Betriebsgeheimnisse Stillschweigen zu bewahren, auch über die Beendigung der 
-    Rahmenvereinbarungen hinaus.`,`10.2 "Swimming from zero tu hero" hat über alle in 
+    Rahmenvereinbarungen hinaus.`, `10.2 "Swimming from zero tu hero" hat über alle in 
     Zusammenhang mit der Erfüllung der Trainings- u. Betreuungsmaßnahmen bekannt 
     gewordenen Informationen des Teilnehmers Stillschweigen zu bewahren.`]
   },
@@ -184,7 +184,7 @@ export const kursPlan = [
   {
     id: uuidv4(),
     title: "Wir starten mit unseren Anfänger Schwimmkursen",
-    date: "am 15. Januar - 05. März",
+    date: "am 05. März - 07. Mai",
     day: "10 Einheiten, jeden Sonntag",
     time1: "von 15:00 - 15:45 Uhr",
     time2: "von 16:00 bis 16:45 Uhr"
@@ -192,7 +192,7 @@ export const kursPlan = [
   {
     id: uuidv4(),
     title: "Wir starten mit unserem Folge Schwimmkurs",
-    date: "am 12. März - 30. April",
+    date: "am 05. März - 23. April",
     day: "8 Trainingseinheiten, jeden Sonntag",
     time1: "von 17:00 - 17:45 Uhr",
     time2: ""
@@ -200,9 +200,9 @@ export const kursPlan = [
   {
     id: uuidv4(),
     title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
-    date: "am 05 Februar - 26. März",
+    date: "am 05. März - 23. April",
     day: " 8 Trainingseinheiten, jeden Sonntag",
-    time1: "von 17:00 - 17:45 Uhr ",
+    time1: "von 18:00 - 18:45 Uhr ",
     time2: ""
   }
 ]
@@ -236,7 +236,7 @@ export const baderegeln = [
   {
     id: uuidv4(),
     number: 6,
-    text:`. Ziehen nach dem Baden das Badezeug aus und trockne dich ab !    `
+    text: `. Ziehen nach dem Baden das Badezeug aus und trockne dich ab !    `
   },
   {
     id: uuidv4(),
@@ -246,7 +246,7 @@ export const baderegeln = [
   {
     id: uuidv4(),
     number: 8,
-    text:`. Rufe nie um Hilfe, wenn du nicht wirklich in Gefahr bist, aber hilf anderen, wenn Hilfe gebraucht wird !    `
+    text: `. Rufe nie um Hilfe, wenn du nicht wirklich in Gefahr bist, aber hilf anderen, wenn Hilfe gebraucht wird !    `
   },
   {
     id: uuidv4(),
@@ -256,28 +256,28 @@ export const baderegeln = [
   {
     id: uuidv4(),
     number: 10,
-    text:`. Nimm Rücksicht auf andere Badende, besonders auf kleine Kinder !    `
+    text: `. Nimm Rücksicht auf andere Badende, besonders auf kleine Kinder !    `
   },
   {
     id: uuidv4(),
     number: 11,
-    text:`. Meide sumpfige und pflanzendurchwachsene Gewässer !
+    text: `. Meide sumpfige und pflanzendurchwachsene Gewässer !
     `
   },
   {
     id: uuidv4(),
     number: 12,
-    text:`. Überschätze im freien Gewässer nicht Kraft und Können !`
+    text: `. Überschätze im freien Gewässer nicht Kraft und Können !`
   },
   {
     id: uuidv4(),
     number: 13,
-    text:`. Schwimmen und Baden am Meeresküsten sind mit besonderen Gefahren verbunden: Frage zunächst Ortskundige ,bevor du ins Wasser gehst !    `
+    text: `. Schwimmen und Baden am Meeresküsten sind mit besonderen Gefahren verbunden: Frage zunächst Ortskundige ,bevor du ins Wasser gehst !    `
   },
   {
     id: uuidv4(),
     number: 14,
-    text:`. Luftmatratze, Autoschlauch und Gummitiere sind im Wasser gefährliches Spielzeug !`
+    text: `. Luftmatratze, Autoschlauch und Gummitiere sind im Wasser gefährliches Spielzeug !`
   }
 
 ]

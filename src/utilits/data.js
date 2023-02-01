@@ -30,7 +30,7 @@ export const data = [
     duration: "45 Minuten",
     lessons: "10 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 190"
+    preis: "Preis 180"
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const data = [
     duration: "45 Minuten",
     lessons: "8 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 180"
+    preis: "Preis 170"
   },
   {
     id: 3,
@@ -121,6 +121,6 @@ export const data = [
     duration: "45 Minuten",
     lessons: "8 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 180"
+    preis: "Preis 170"
   }
 ]
