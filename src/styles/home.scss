@@ -16,6 +16,12 @@
         color: white;
         font-size: 3rem;
         font-weight: 700;
+        @media (max-width: 768px) {
+          font-size: 2.5rem;
+        }
+        @media (max-width: 425px) {
+          font-size: 1.5rem;
+        }
       }
 
       .btn {

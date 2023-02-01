@@ -12,7 +12,6 @@ const Alert = React.forwardRef(function Alert(props, ref) {
 });
 
 const KursBuchen = () => {
-
   const form = useRef();
   const [open, setOpen] = useState(false);
 
@@ -36,8 +35,7 @@ const KursBuchen = () => {
       .then(
         (result) => {
           console.log(result.text);
-          result.text === "OK" && (setOpen(true))
-
+          result.text === "OK" && setOpen(true);
         },
         (error) => {
           console.log(error.text);
@@ -68,16 +66,14 @@ const KursBuchen = () => {
             variant="filled"
             name="user_lastName"
             sx={{ m: 2 }}
-
           />
           <TextField
             id="filled-phone-input"
             label="Telefonnummer"
             type="tel"
             variant="filled"
-            name='user_tel'
+            name="user_tel"
             sx={{ m: 2 }}
-
           />
           <TextField
             id="filled-email-input"
@@ -87,7 +83,6 @@ const KursBuchen = () => {
             variant="filled"
             name="user_email"
             sx={{ m: 2 }}
-
           />
           <TextField
             id="filled-number"
@@ -99,7 +94,6 @@ const KursBuchen = () => {
             variant="filled"
             name="user_age"
             sx={{ m: 2 }}
-
           />
           <FormControl fullWidth sx={{ m: 1 }}>
             <InputLabel variant="standard" htmlFor="uncontrolled-native">
@@ -150,9 +144,7 @@ const KursBuchen = () => {
               <option value={"Anfänger Schwimmkursen"}>
                 Anfänger Schwimmkursen
               </option>
-              <option value={"Folge Schwimmkurs"}>
-                Folge Schwimmkurs
-              </option>
+              <option value={"Folge Schwimmkurs"}>Folge Schwimmkurs</option>
               <option value={"Bronze, Silber und Gold Schwimmkursen"}>
                 Bronze, Silber und Gold Schwimmkursen
               </option>
@@ -180,17 +172,20 @@ const KursBuchen = () => {
               sx={{ "& .MuiSvgIcon-root": { fontSize: 28 } }}
               name="checkbox"
             />
-            <Link to="/AGB">
-              <p>Ich akzeptiere die</p>
-              Allgemeinen Geschäftsbedingungen (AGB)
-            </Link>
+            <span>
+              Ich akzeptiere die
+              <Link to="/AGB"> Allgemeinen Geschäftsbedingungen (AGB)</Link>
+            </span>
           </div>
           <button className="btn" type="submit">
             Senden
           </button>
           <Snackbar
-            open={open} autoHideDuration={2000} onClose={handleClose}
-            anchorOrigin={{ vertical: 'top', horizontal: 'center' }}>
+            open={open}
+            autoHideDuration={2000}
+            onClose={handleClose}
+            anchorOrigin={{ vertical: "top", horizontal: "center" }}
+          >
             <Alert
               onClose={handleClose}
               severity="success"
