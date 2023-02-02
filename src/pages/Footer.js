@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="footer_inner">
             <div className="footer_inner-logo">
               <div className="footerLogo">
-                <Link to="/" className="logo">
+                <Link to="" className="logo">
                   <div className="footerLogo_title">
                     <TbSwimming className="icon" />
                     <div>
@@ -25,7 +25,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="socials">
-                <ImFacebook className="icon" />
+                <a href="https://www.facebook.com/profile.php?id=100089782578708"><ImFacebook className="icon" /></a>
                 <AiFillInstagram className="icon" />
               </div>
             </div>
