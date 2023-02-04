@@ -24,6 +24,21 @@
     //margin: 3rem 18rem;
     background-color: $bg;
 
+    .kursBuchen_form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media (max-width: 648px) {
+        justify-content: center;
+      }
+
+      .MuiFormControl-root.MuiTextField-root.css-yfcmxe-MuiFormControl-root-MuiTextField-root {
+        @media (max-width: 648px) {
+          width: 100%;
+        }
+      }
+    }
+
     h1 {
       margin: 2rem 0;
       @media(max-width: 620px) {

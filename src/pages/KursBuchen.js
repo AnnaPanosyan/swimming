@@ -49,52 +49,54 @@ const KursBuchen = () => {
       <div className="container">
         <h1>Kurs Buchen</h1>
         <form ref={form} onSubmit={sendEmail} className="form">
-          <TextField
-            required
-            id="filled-required"
-            label="Familienname"
-            defaultValue=""
-            variant="filled"
-            name="user_name"
-            sx={{ m: 2 }}
-          />
-          <TextField
-            required
-            id="filled-required"
-            label="Vorname (Kursteilnehmer)"
-            defaultValue=""
-            variant="filled"
-            name="user_lastName"
-            sx={{ m: 2 }}
-          />
-          <TextField
-            id="filled-phone-input"
-            label="Telefonnummer"
-            type="tel"
-            variant="filled"
-            name="user_tel"
-            sx={{ m: 2 }}
-          />
-          <TextField
-            id="filled-email-input"
-            label="E-Mail"
-            type="email"
-            autoComplete="current-email"
-            variant="filled"
-            name="user_email"
-            sx={{ m: 2 }}
-          />
-          <TextField
-            id="filled-number"
-            label="Alter (Kursteilnehmer)"
-            type="number"
-            InputLabelProps={{
-              shrink: true,
-            }}
-            variant="filled"
-            name="user_age"
-            sx={{ m: 2 }}
-          />
+          <div className="kursBuchen_form">
+            <TextField
+              required
+              id="filled-required"
+              label="Familienname"
+              defaultValue=""
+              variant="filled"
+              name="user_name"
+              sx={{ m: 2 }}
+            />
+            <TextField
+              required
+              id="filled-required"
+              label="Vorname (Kursteilnehmer)"
+              defaultValue=""
+              variant="filled"
+              name="user_lastName"
+              sx={{ m: 2 }}
+            />
+            <TextField
+              id="filled-phone-input"
+              label="Telefonnummer"
+              type="tel"
+              variant="filled"
+              name="user_tel"
+              sx={{ m: 2 }}
+            />
+            <TextField
+              id="filled-email-input"
+              label="E-Mail"
+              type="email"
+              autoComplete="current-email"
+              variant="filled"
+              name="user_email"
+              sx={{ m: 2 }}
+            />
+            <TextField
+              id="filled-number"
+              label="Alter (Kursteilnehmer)"
+              type="number"
+              InputLabelProps={{
+                shrink: true,
+              }}
+              variant="filled"
+              name="user_age"
+              sx={{ m: 2 }}
+            />
+          </div>
           <FormControl fullWidth sx={{ m: 1 }}>
             <InputLabel variant="standard" htmlFor="uncontrolled-native">
               Geschlecht
