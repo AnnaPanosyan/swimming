@@ -2,7 +2,7 @@ import React from "react";
 import { TbSwimming } from "react-icons/tb";
 import { ImFacebook } from "react-icons/im";
 import { Link, NavLink } from "react-router-dom";
-import { AiFillInstagram } from "react-icons/ai";
+// import { AiFillInstagram } from "react-icons/ai";
 import { navlinks, roolsLink } from "../utilits/navlinks";
 import Map from "../componets/Map";
 
@@ -23,10 +23,6 @@ const Footer = () => {
                     </div>
                   </div>
                 </Link>
-              </div>
-              <div className="socials">
-                <a href="https://www.facebook.com/profile.php?id=100089782578708"><ImFacebook className="icon" /></a>
-                <AiFillInstagram className="icon" />
               </div>
             </div>
             <div className="footer_navbar">
@@ -54,6 +50,10 @@ const Footer = () => {
               <a href="mailto:swimmzerotohero@gmail.com" className="email">
                 swimmzerotohero@gmail.com
               </a>
+              <div className="socials">
+                <a href="https://www.facebook.com/profile.php?id=100089782578708"><ImFacebook className="icon" /></a>
+                {/* <AiFillInstagram className="icon" /> */}
+              </div>
             </div>
 
             <div className="footer_contacts">
