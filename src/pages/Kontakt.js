@@ -23,10 +23,10 @@ const Kontact = () => {
 
     emailjs
       .sendForm(
-        "service_0ysa5ei",
-        "template_j4hsjdb",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "tmD6DfLWRyEbl4efE"
+        process.env.REACT_APP_PUBLICK_KEY
       )
       .then(
         (result) => {
