@@ -122,19 +122,9 @@
           .navItem {
             padding: 1rem 0;
 
-            .navLink {
-              color: $primaryColor;
-              font-size: 0.9rem;
-              font-weight: 600;
 
-              &:hover {
-                color: $light;
-              }
-            }
           }
         }
-
-
       }
       .activeNavbar {
         left: 0;
@@ -144,9 +134,6 @@
 
   }
 
-  .navLink_active {
-    color: $light;
-  }
 
   .activeHeader {
     background: $greyBg;
@@ -154,4 +141,18 @@
   }
 }
 
+.navLink {
+  color: $primaryColor;
+  font-size: 0.9rem;
+  font-weight: 600;
 
+  &:hover {
+    color: $light;
+  }
+}
+
+.navLink_active {
+  color: $light;
+  font-size: 0.9rem;
+  font-weight: 600;
+}

@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div className='main'>
-      <Navbar/>
+    <div className="main">
+      <Navbar />
       <div>
-        <Outlet/>
+        <Outlet />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
