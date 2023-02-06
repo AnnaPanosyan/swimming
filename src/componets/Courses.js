@@ -61,8 +61,8 @@ const Courses = () => {
                 </div>
                 <div className="about_cours">
                   <h2 className="courses_title">Über diesen Kurs</h2>
-                  {cours.description.map((item) => (
-                    <div key={item.duration}>
+                  {cours.description.map((item,index) => (
+                    <div key={index}>
                       <p>{item.about}</p>
                       <div className="courses_rule">
                         <h2 className="courses_title">{item.subTitle}</h2>

@@ -40,13 +40,6 @@
             .footerLogo_title {
               display: flex;
             }
-
-            .icon {
-              font-size: 25px;
-              color: $light;
-              margin-right: 0.5rem;
-
-            }
           }
         }
 
@@ -54,37 +47,34 @@
           display: flex;
           gap: 0.5rem;
           justify-content: center;
-
-          .icon {
-            font-size: 30px;
-            background: $light;
-            border-radius: 50%;
-            padding: 8px;
-            color: $primaryColor;
-
-            &:hover {
-              background: $bg;
-            }
-          }
         }
       }
     }
   }
 
   .footer_navbar {
-
     .linkTitle {
       padding-bottom: 0.5rem;
       color: $dark;
       font-weight: 700;
     }
-
   }
 }
 
 .footer_contacts {
   display: flex;
   flex-direction: column;
+  .icon {
+    font-size: 30px;
+    background: $light;
+    border-radius: 50%;
+    padding: 8px;
+    color: $primaryColor;
+
+    &:hover {
+      background: $bg;
+    }
+  }
 
   a {
     color: $dark;
@@ -103,7 +93,6 @@
     max-width: 100px;
     margin: auto;
     gap: 2rem;
-
   }
 }
 
@@ -113,15 +102,12 @@
   margin-top: 1rem;
 }
 
-
 .footerR {
   color: $dark;
 
-  &:hover,
-  {
+  &:hover {
     color: $light;
   }
-
 }
 
 .footerR_active {
