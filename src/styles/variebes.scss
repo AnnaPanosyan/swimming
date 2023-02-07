@@ -12,21 +12,13 @@ $primaryColor: rgba(45, 108, 180, 0.3);
 $inputText: rgb(2, 2, 1);
 $textColor: rgba(45, 108, 180);
 $greyBg: rgb(208, 231, 247);
-//spacing-md
 $spacing-md: 16px;
 $spacing-lg: 32px;
-
-//border-redius
-
 $borderRedius: 12px;
-
 $bgImg: "bgimg.jpeg";
-
 $breakpoints: (
-        "tablet": 768px,
+  "tablet": 768px,
 ) !default;
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,7 +26,6 @@ $breakpoints: (
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease;
 }
-
 body {
   width: 100%;
   color: $dark;
@@ -62,7 +53,6 @@ li {
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-
 }
 
 .main {
@@ -111,7 +101,6 @@ li {
   color: $bg;
 }
 
-
 .secIntro {
   max-width: 70%;
   text-align: center;
@@ -135,7 +124,3 @@ video {
   width: 100%;
   height: auto;
 }
-
-//input {
-//  font-size: 100%;
-//}

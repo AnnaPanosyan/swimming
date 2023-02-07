@@ -1,17 +1,13 @@
-
 .logoDiv {
   .logoIcon {
     display: flex;
     flex-direction: row;
-
     &:hover {
       color: $dark;
     }
-
     .flexIcon {
       display: flex;
       flex-direction: column;
-
       span {
         font-family: cursive;
         font-style: oblique;
@@ -20,9 +16,7 @@
     }
   }
 }
-
 .navBarSection {
-
   .header {
     display: flex;
     align-items: center;
@@ -30,21 +24,18 @@
     background: transparent;
     max-width: 1240px;
     height: 80px;
-
     .navBar {
       .navLists {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
-
         .navItem {
           .navLink {
             color: $dark;
             padding: 0 0.45rem;
             font-size: 0.9rem;
             font-weight: 600;
-
             &:hover {
               color: $light;
             }
@@ -52,17 +43,14 @@
         }
       }
     }
-
     .logoDiv {
       box-shadow: 0 3px 2px 0 $light;
-
       .logo {
         color: $dark;
         font-weight: 500;
         cursor: pointer;
         align-items: center;
         justify-content: center;
-
         .icon {
           color: $light;
           font-size: 25px;
@@ -70,32 +58,26 @@
         }
       }
     }
-
     .toggleNavbar {
       display: none;
-
       .icon {
         font-size: 25px;
         color: $dark;
-
         &:hover {
           color: $light;
         }
       }
     }
-
     .closeNavbar {
       display: none;
       position: absolute;
       top: 1rem;
       right: 1.5rem;
       color: $hoverColor;
-
       &:hover .icon {
         color: ($light);
       }
     }
-
     @media screen and (max-width: 768px) {
       .toggleNavbar,
       .closeNavbar {
@@ -112,17 +94,13 @@
         box-shadow: 0 2px 4px $light;
         transition: 0.5s ease;
         z-index: 10;
-
         .navLists {
           flex-direction: column;
           justify-content: center;
           width: 100%;
           margin: auto;
-
           .navItem {
             padding: 1rem 0;
-
-
           }
         }
       }
@@ -131,26 +109,20 @@
       }
     }
     //----------------------------------
-
   }
-
-
   .activeHeader {
     background: $greyBg;
     box-shadow: 0 2px 8px 2px 2px $dark;
   }
 }
-
 .navLink {
   color: $primaryColor;
   font-size: 0.9rem;
   font-weight: 600;
-
   &:hover {
     color: $light;
   }
 }
-
 .navLink_active {
   color: $light;
   font-size: 0.9rem;

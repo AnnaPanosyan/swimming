@@ -7,11 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   .secContainer {
     .homeText {
       text-align: center;
-
       .title {
         color: white;
         font-size: 3rem;
@@ -23,11 +21,9 @@
           font-size: 1.5rem;
         }
       }
-
       .btn {
         margin-top: 3rem;
         transition: all .3s;
-
         &:hover {
           background-color: #7ec40e;
         }

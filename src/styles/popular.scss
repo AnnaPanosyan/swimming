@@ -1,33 +1,26 @@
 .popular {
   padding-top: 4rem;
-
   .popular_section {
     text-align: center;
-
     .secTitle {
       color: $dark;
       line-height: 1.5rem;
       padding-bottom: 0.5rem;
       text-transform: uppercase;
     }
-
     p {
       font-size: 15px;
       color: $primaryColor;
     }
   }
-
-
   .mainContent {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     @media screen and (max-width: 768px) {
       justify-content: center;
       display: block;
     }
-
     .singInDestination {
       width: 320px;
       height: 290px;
@@ -38,7 +31,6 @@
       @media screen and (max-width: 768px) {
         width: 100%;
       }
-
       .destImage {
         height: 200px;
         width: 100%;
@@ -62,13 +54,11 @@
           width: 100%;
           height: 0;
           overflow: hidden;
-
           h3 {
             color: $dark;
             font-weight: 600;
             font-size: 1.1rem;
           }
-
           .icon {
             position: absolute;
             right: 10px;
@@ -80,7 +70,6 @@
             color: $light;
             border: 1px solid transparent;
             transition: 0.3s ease;
-
             &:hover {
               background: $hoverColor;
               border: 1px solid $light;
@@ -89,17 +78,14 @@
           }
         }
       }
-
       .destFooter {
         padding: 1rem;
-
         .number {
           font-size: 1.5rem;
           font-weight: 700;
           color: $primaryColor;
           width: 75px;
           position: relative;
-
           &::after {
             content: "";
             position: absolute;
@@ -111,15 +97,12 @@
             border-radius: 1px;
           }
         }
-
         .desText {
           justify-content: space-between;
-
           h6 {
             color: $primaryColor;
             font-size: 16px;
           }
-
           .flex {
             font-size: 16px;
             font-weight: 600;
@@ -128,7 +111,6 @@
           }
         }
       }
-
       &:hover {
         .overlayInfo {
           overflow: visible;
@@ -138,6 +120,4 @@
       }
     }
   }
-
 }
-

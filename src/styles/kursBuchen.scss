@@ -5,25 +5,20 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem;
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     padding: 1rem;
   }
-
-  a, a:visited {
+  a,
+  a:visited {
     color: $dark;
     font-style: italic;
     font-width: bold;
-
     &:hover {
-      color: $light
+      color: $light;
     }
   }
-
   .container {
-    //padding: 2rem;
-    //margin: 3rem 18rem;
     background-color: $bg;
-
     .kursBuchen_form {
       display: flex;
       justify-content: space-between;
@@ -38,41 +33,34 @@
         }
       }
     }
-
     h1 {
       margin: 2rem 0;
-      @media(max-width: 620px) {
+      @media (max-width: 620px) {
         text-align: center;
       }
     }
-
     form {
       padding: 1rem 0;
-      @media(max-width: 620px) {
+      @media (max-width: 620px) {
         text-align: center;
       }
-
       p {
         display: block;
       }
-
       .btn {
-        @media(max-width: 560px) {
+        @media (max-width: 560px) {
           width: 100%;
         }
       }
     }
-
     .text {
       font-size: 14px;
       margin-bottom: 2rem;
     }
-
     .daten {
       margin-bottom: 2rem;
       font-size: 14px;
     }
-
     .inputText {
       background-color: $bg;
       padding: 1rem;
@@ -83,7 +71,6 @@
         background-color: $primaryColor;
       }
     }
-
     .checkbox {
       display: flex;
       margin-bottom: 2rem;
@@ -91,7 +78,5 @@
       align-items: center;
       margin-left: -12px;
     }
-
-
   }
 }
