@@ -34,7 +34,6 @@ const KursBuchen = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           result.text === "OK" && setOpen(true);
         },
         (error) => {

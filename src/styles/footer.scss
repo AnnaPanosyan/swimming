@@ -1,12 +1,10 @@
 .footer {
   background: $greyBg;
   padding: 2rem 0;
-
   .footer_title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     .footer_inner {
       display: flex;
       justify-content: space-evenly;
@@ -19,17 +17,14 @@
         gap: 2rem;
         align-items: center;
       }
-
       .footer_inner-logo {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         height: 120px;
-
         .footerLogo {
           padding: 0.5rem;
-
           .logo {
             color: $dark;
             font-weight: 500;
@@ -40,31 +35,6 @@
             .footerLogo_title {
               display: flex;
             }
-
-            .icon {
-              font-size: 25px;
-              color: $light;
-              margin-right: 0.5rem;
-
-            }
-          }
-        }
-
-        .socials {
-          display: flex;
-          gap: 0.5rem;
-          justify-content: center;
-
-          .icon {
-            font-size: 30px;
-            background: $light;
-            border-radius: 50%;
-            padding: 8px;
-            color: $primaryColor;
-
-            &:hover {
-              background: $bg;
-            }
           }
         }
       }
@@ -72,13 +42,11 @@
   }
 
   .footer_navbar {
-
     .linkTitle {
       padding-bottom: 0.5rem;
       color: $dark;
       font-weight: 700;
     }
-
   }
 }
 
@@ -94,6 +62,17 @@
       color: $light;
     }
   }
+  .icon {
+    font-size: 30px;
+    background: $light;
+    border-radius: 50%;
+    padding: 8px;
+    color: $primaryColor;
+
+    &:hover {
+      background: $bg;
+    }
+  }
 }
 
 .footer_rolls {
@@ -103,7 +82,6 @@
     max-width: 100px;
     margin: auto;
     gap: 2rem;
-
   }
 }
 
@@ -112,18 +90,13 @@
 .footer_contacts {
   margin-top: 1rem;
 }
-
-
 .footerR {
   color: $dark;
 
-  &:hover,
-  {
+  &:hover {
     color: $light;
   }
-
 }
-
 .footerR_active {
   color: $light;
 }

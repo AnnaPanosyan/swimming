@@ -24,10 +24,6 @@ const Footer = () => {
                   </div>
                 </Link>
               </div>
-              <div className="socials">
-                <ImFacebook className="icon" />
-                <AiFillInstagram className="icon" />
-              </div>
             </div>
             <div className="footer_navbar">
               <h4 className="linkTitle"> Information </h4>
@@ -54,6 +50,7 @@ const Footer = () => {
               <a href="mailto:swimmzerotohero@gmail.com" className="email">
                 swimmzerotohero@gmail.com
               </a>
+              <ImFacebook className="icon" />
             </div>
 
             <div className="footer_contacts">
