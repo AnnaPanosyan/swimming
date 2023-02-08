@@ -1,43 +1,54 @@
-.impressum{
+.impressum {
   padding: 2rem;
-  .impressum_title{
+
+  .impressum_title {
     text-align: center;
-    background-color:$light;
+    background-color: $light;
   }
-  .contacts{
+
+  .contacts {
     padding: 2rem 0;
-    h4{
-      color:$textColor;
+
+    p {
+      color: $textColor;
     }
-    .title{
+
+    .title {
       padding: 2rem 0;
       font-style: italic;
       color: $dark;
     }
-    .links{
+
+    .links {
       display: flex;
-      flex-direction:column;
-      a{
-        color:$textColor;
+      flex-direction: column;
+
+      a {
+        color: $textColor;
       }
-      a:hover{
+
+      a:hover {
         transform: translateX(10px);
-        color:$light;
+        color: $light;
       }
     }
   }
-  .impressum_contant{
+
+  .impressum_contant {
     padding-top: 2rem;
-  .impressum_item{
-    padding-bottom: 1.5rem;
-    .impressum_subtitle{
-      padding-bottom: 0.5rem;
-      font-style: italic;
+
+    .impressum_item {
+      padding-bottom: 1.5rem;
+
+      .impressum_subtitle {
+        padding-bottom: 0.5rem;
+        font-style: italic;
+      }
+
+      .impressum_text {
+        padding-top: 0.5rem;
+      }
+
     }
-    .impressum_text{
-      padding-top: 0.5rem;
-    }
-   
   }
-}
 }
