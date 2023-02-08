@@ -48,7 +48,13 @@ const Footer = () => (
             <a href="mailto:swimmzerotohero@gmail.com" className="email">
               swimmzerotohero@gmail.com
             </a>
-            <ImFacebook className="icon" />
+            <a
+              href="https://www.facebook.com/profile.php?id=100089782578708"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImFacebook className="icon" />
+            </a>
           </div>
 
           <div className="footer_contacts">
