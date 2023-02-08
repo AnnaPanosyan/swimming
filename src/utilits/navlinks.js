@@ -1,24 +1,25 @@
-import {v4 as uuidv4} from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 
 export const navlinks = [
   {
     id: uuidv4(),
-    link: 'Home',
-    to: '/',
+    link: "Home",
+    to: "/",
   },
   {
     id: uuidv4(),
-    link: 'Kurs buchen',
-    to: 'kursbuchen'
+    link: "Kurs buchen",
+    to: "/kursbuchen",
   },
   {
     id: uuidv4(),
-    link: 'Kursplan',
-    to: 'kursplan'
-  }, {
+    link: "Kursplan",
+    to: "/kursplan",
+  },
+  {
     id: uuidv4(),
-    link: 'Kontakt',
-    to: 'kontact'
+    link: "Kontakt",
+    to: "/kontact",
   },
   //  {
   //   id: uuidv4(),
@@ -27,25 +28,25 @@ export const navlinks = [
   // },
   {
     id: uuidv4(),
-    link: 'Baderegeln',
-    to: 'baderegeln'
+    link: "Baderegeln",
+    to: "/baderegeln",
   },
-]
+];
 
 export const roolsLink = [
   {
     id: uuidv4(),
-    link: 'Impressum',
-    to: 'impressum'
+    link: "Impressum",
+    to: "/impressum",
   },
   {
     id: uuidv4(),
-    link: 'Datenschutz',
-    to: 'datenschutz'
+    link: "Datenschutz",
+    to: "/datenschutz",
   },
   {
     id: uuidv4(),
-    link: 'AGB',
-    to: 'AGB'
+    link: "AGB",
+    to: "/AGB",
   },
-]
+];

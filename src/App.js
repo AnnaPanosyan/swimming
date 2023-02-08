@@ -17,15 +17,15 @@ function App() {
     <Routes>
       <Route path="/" element={<Main />}>
         <Route index element={<Home />} />
-        <Route path="kursbuchen" element={<KursBuchen />} />
-        <Route path="kursplan" element={<Kursplan />} />
-        <Route path="kontact" element={<Kontact />} />
-        <Route path="baderegeln" element={<Baderegeln />} />
+        <Route path="/kursbuchen" element={<KursBuchen />} />
+        <Route path="/kursplan" element={<Kursplan />} />
+        <Route path="/kontact" element={<Kontact />} />
+        <Route path="/baderegeln" element={<Baderegeln />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="courses/:id" element={<Courses />} />
-        <Route path="AGB" element={<AGB />} />
-        <Route path="impressum" element={<Impressum />} />
-        <Route path="datenschutz" element={<Datenschutz />} />
+        <Route path="/courses/:id" element={<Courses />} />
+        <Route path="/AGB" element={<AGB />} />
+        <Route path="/impressum" element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
       </Route>
     </Routes>
   );
