@@ -20,20 +20,14 @@ export const data = [
           `Heraufholen eines Tauchrings mit den Händen aus schultertiefen Wasser`,
           `3-5 Baderegeln, die Sie auch auf meiner Homepage finden können`,
         ],
-        about: `Während unseres Anfänger- Schwimmkurses 
-      werden die Kinder auf spielerische Art und Weise, 
-      das sichere und eigenständige Bewegen, im Wasser erarbeiten. 
-      Inhaltlich folgen nach der spielerischen Wassergewöhnung das Atmen, 
-      Tauchen, Springen, Gleiten und natürlich die ersten Arm und 
-      Beinbewegungen des Schwimmens. Kurs wird voraussichtlich mit 
-      dem Schwimmabzeichen Seepferdchen abgeschlossen.`,
+        about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf spielerische Art und Weise, das sichere und eigenständige Bewegen, im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und Beinbewegungen des Schwimmens.Der Kurs wird voraussichtlich mit dem Schwimmabzeichen Seepferdchen abgeschlossen.`,
         subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
       },
     ],
     duration: "45 Minuten",
     lessons: "10 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 180",
+    preis: "Preis 140",
   },
   {
     id: 2,
@@ -50,8 +44,7 @@ export const data = [
         hinauf zu holen, sowie alle Baderegeln kennen zu lernen.`,
         ],
         about: `Der Folge Schwimmkurs ist für diejenigen, 
-        die kurz vor dem Seepferdchen-Abzeichen stehen. 
-        In diesem Aufbaukurs  werden die Kinder 
+        die kurz vor dem Seepferdchen-Abzeichen stehen. In diesem Aufbaukurs werden die Kinder 
         ihr vorhandenes können aufbessern und festigen.`,
         subTitle: "Anforderungen zum Schwimmabzeichen Folge",
       },
@@ -59,7 +52,7 @@ export const data = [
     duration: "45 Minuten",
     lessons: "8 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 170",
+    preis: "Preis 130",
   },
   {
     id: 3,
@@ -134,6 +127,6 @@ export const data = [
     duration: "45 Minuten",
     lessons: "8 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 170",
+    preis: "Preis 130",
   },
 ];

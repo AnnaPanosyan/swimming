@@ -36,6 +36,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive ? "navLink_active" : "navLink"
                     }
+                    onClick={removeNav}
                   >
                     {item.link}
                   </NavLink>
