@@ -4,7 +4,7 @@ $Poppins: "Poppins", sans-serif;
 //colors
 $bg: #ebf9f9;
 $dark: rgb(14, 35, 156);
-$light: rgb(157, 255, 0);
+$light: rgb(157, 255, 0); //#35C759;
 $hoverColor: rgb(84, 227, 70);
 
 $blackColor: rgb(6, 26, 48);
@@ -17,7 +17,7 @@ $spacing-lg: 32px;
 $borderRedius: 12px;
 $bgImg: "bgimg.jpeg";
 $breakpoints: (
-  "tablet": 768px,
+        "tablet": 768px,
 ) !default;
 * {
   box-sizing: border-box;
@@ -26,6 +26,7 @@ $breakpoints: (
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease;
 }
+
 body {
   width: 100%;
   color: $dark;
