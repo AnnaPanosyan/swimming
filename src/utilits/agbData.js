@@ -196,7 +196,7 @@ export const kursPlan = [
     id: uuidv4(),
     title: "Wir starten mit unseren Anfänger Schwimmkursen",
     date: "am 05. März - 07. Mai",
-    day: "10 Einheiten, jeden Sonntag,  ( 140 € )",
+    day: "10 Einheiten, jeden Sonntag,( 140 €)",
     time1: "von 15:00 - 15:45 Uhr",
     time2: "von 16:00 bis 16:45 Uhr"
   },
@@ -204,7 +204,7 @@ export const kursPlan = [
     id: uuidv4(),
     title: "Wir starten mit unserem Folge Schwimmkurs",
     date: "am 05. März - 23. April",
-    day: "8 Trainingseinheiten, jeden Sonntag, ( 130 € )",
+    day: "8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 17:00 - 17:45 Uhr",
     time2: ""
   },
@@ -212,7 +212,7 @@ export const kursPlan = [
     id: uuidv4(),
     title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
     date: "am 05. März - 23. April",
-    day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 € )",
+    day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 18:00 - 18:45 Uhr ",
     time2: ""
   }

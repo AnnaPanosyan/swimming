@@ -8,6 +8,9 @@
     .flexIcon {
       display: flex;
       flex-direction: column;
+      span {
+        color: $dark;
+      }
     }
   }
 }
