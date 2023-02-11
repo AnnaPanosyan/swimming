@@ -5,9 +5,10 @@ export const agbData = [
     id: uuidv4(),
     title: "§1 Leistungsgegenstand",
     text: [`1.1  Die Schwimmschule 
-    " Swimming from zero to hero" verpflichtet sich, die Kurse nach bestem Wissen und Gewissen und höchstem
+    " Swimming from zero to hero" verpflichtet sich, die Kurse nach bestem Wissen und 
+    Gewissen und höchstem
      Sicherheitsstandard durchzuführen.
-    Die Anmeldung/Buchung ist rechtlich verbindlich.?Mit der Anmeldung werden diese 
+    Die Anmeldung/Buchung ist rechtlich verbindlich.Mit der Anmeldung werden diese 
     Allgemeinen Geschäftsbedingungen anerkannt.`,
       `1.2 Die vereinbarte Übungs- u. Betreuungsleistung versteht sich als zeitbestimmte, 
   dienstvertragliche Verpflichtung entsprechend §611 BGB.`]
@@ -16,7 +17,8 @@ export const agbData = [
     id: uuidv4(),
     title: `§2 Übungszeit in den Kursen`,
     text: [`2.1 Die Dauer der Übungszeit beträgt  45 Minuten.`, `2.2. Bei zu geringer 
-    Teilnehmerzahl können Kurse zusammengelegt und somit maximal um 45 Minuten nach vorne oder 
+    Teilnehmerzahl können Kurse zusammengelegt und somit maximal um 45 Minuten nach 
+    vorne oder 
     hinten verschoben werden!
     `],
   },
@@ -27,16 +29,17 @@ export const agbData = [
     Adresse: Zur Hepper Höhe 4                                          
     59505 Bad Sassendorf, Deutschland`,
       `3.2 Parkplätze sind ausreichend vorhanden.`,
-      `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.`, `3.4 Die Wassertiefe beträgt  
-    0,75 m bis 1,80 m.`,
-      `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind?keine 
+      `3.3 Die Wassertemperatur beträgt bei allen Kursen 27 Grad.`,
+      `3.4 Die Wassertiefe beträgt 0,75 m bis 1,80 m.`,
+      `3.5 Bei den Kursen für Kinder ab 5 bzw. 14 J.(Bronze/Silber/Gold) sind keine 
     Eltern/Geschwister/Omas etc. im Schwimmbad als Zuschauer zugelassen.`
     ]
   },
   {
     id: uuidv4(),
     title: "§4 Sonstige Leistungen",
-    text: [`4.1 Probestunden sind gegen eine einmalige Gebühr von 18€ bei Platzverfügbarkeit möglich.`,
+    text: [`4.1 Probestunden sind gegen eine einmalige Gebühr von 18€ bei 
+    Platzverfügbarkeit möglich.`,
       `4.2. Bei Platzverfügbarkeit ist auch noch ein Einstieg während des Kurses möglich.`]
   },
   {
@@ -44,15 +47,22 @@ export const agbData = [
     title: "§5 Haftung",
     text: [`5.1 Meine Schwimmschule  schließt gegenüber den Teilnehmern jegliche 
     Haftung für einen Schaden aus, der nicht auf einer grob 
-    fahrlässigen oder vorsätzlichen Pflichtverletzung beruht.`, `5.2 Es besteht eine 
+    fahrlässigen oder vorsätzlichen Pflichtverletzung beruht.`,
+      `5.2 Es besteht eine 
     Betriebshaftpflichtversicherung , um etwaigen gesetzlichen 
-    Haftungsansprüchen des Teilnehmers zu genügen.`, `5.3 Der Teilnehmer hat sich eigenverantwortlich 
+    Haftungsansprüchen des Teilnehmers zu genügen.`,
+      `5.3 Der Teilnehmer hat sich eigenverantwortlich 
     gegen Unfälle und Verletzungen, die im Rahmen des 
-    Kurses auftreten können zu versichern. Gleiches gilt für den direkten Weg von und zum Trainingsort.`,
-      `5.4 Der Teilnehmer bzw. Erziehungsberechtigte versichert,sportgesund zu sein. Er hat sich in den 
-    letzten drei Monaten bei einem Arzt über seinen oder seines Kindes Gesundheitszustand versichert.`,
-      `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften für Ihre Kinder.`,
-      `5.6 Meine Schwimmschule übernimmt keine Haftung für Schäden an und den Verlust von Wertgegenständen.
+    Kurses auftreten können zu versichern. Gleiches gilt für den direkten Weg 
+    von und zum Trainingsort.`,
+      `5.4 Der Teilnehmer bzw. Erziehungsberechtigte versichert,sportgesund zu sein. 
+      Er hat sich in den 
+    letzten drei Monaten bei einem Arzt über seinen oder seines Kindes Gesundheitszustand 
+    versichert.`,
+      `5.5 Für Schäden an der Übungsstätte haftet der Teilnehmer selbst. Eltern haften 
+      für Ihre Kinder.`,
+      `5.6 Meine Schwimmschule übernimmt keine Haftung für Schäden an und 
+      den Verlust von Wertgegenständen.
 `]
   },
   {
@@ -60,7 +70,8 @@ export const agbData = [
     title: "§6 Aufsichtspflicht",
     text: [`6.1 Die Scwimmschule " Swimming from zero to hero" hat die Aufsichtspflicht 
     bei Kursbeginn und vor Kursende. Sie haftet für die Zeit des Schwimmkurses im Wasser. 
-    Vor Kursbeginn und nach Kursende ist es die Pflicht der Erziehungsberechtigten ihre Kinder 
+    Vor Kursbeginn und nach Kursende ist es die Pflicht der Erziehungsberechtigten ihre 
+    Kinder 
     zu beaufsichtigen.
     Die Schwimmschule " Swimming from zero to hero" übernimmt keine Haftung, wenn den Kindern 
     vor Kursbeginn und nach Kursende etwas passiert.
@@ -129,7 +140,7 @@ export const impressumData = [
     title: "Haftung für Inhalte",
     text: `Als Diensteanbieter sind wir gemäß § 7 Abs.
   1 TMG für eigene Inhalte auf diesen Seiten nach den 
-  allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 
+  allgemeinen Gesetzen verantwortlich. Nach § 8 bis 
   10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, 
   übermittelte oder gespeicherte fremde Informationen zu überwachen 
   oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.`,
@@ -185,7 +196,7 @@ export const kursPlan = [
     id: uuidv4(),
     title: "Wir starten mit unseren Anfänger Schwimmkursen",
     date: "am 05. März - 07. Mai",
-    day: "10 Einheiten, jeden Sonntag",
+    day: "10 Einheiten, jeden Sonntag,  ( 140 € )",
     time1: "von 15:00 - 15:45 Uhr",
     time2: "von 16:00 bis 16:45 Uhr"
   },
@@ -193,7 +204,7 @@ export const kursPlan = [
     id: uuidv4(),
     title: "Wir starten mit unserem Folge Schwimmkurs",
     date: "am 05. März - 23. April",
-    day: "8 Trainingseinheiten, jeden Sonntag",
+    day: "8 Trainingseinheiten, jeden Sonntag, ( 130 € )",
     time1: "von 17:00 - 17:45 Uhr",
     time2: ""
   },
@@ -201,7 +212,7 @@ export const kursPlan = [
     id: uuidv4(),
     title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
     date: "am 05. März - 23. April",
-    day: " 8 Trainingseinheiten, jeden Sonntag",
+    day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 € )",
     time1: "von 18:00 - 18:45 Uhr ",
     time2: ""
   }

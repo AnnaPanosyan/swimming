@@ -4,7 +4,7 @@ $Poppins: "Poppins", sans-serif;
 //colors
 $bg: #ebf9f9;
 $dark: rgb(14, 35, 156);
-$light: rgb(157, 255, 0); //#35C759;
+$light:  #35C759;// rgb(157, 255, 0);
 $hoverColor: rgb(84, 227, 70);
 
 $blackColor: rgb(6, 26, 48);
@@ -86,10 +86,10 @@ li {
   border-radius: 3rem;
   cursor: pointer;
   font-size: 1rem;
+  color: $greyBg;
 
   &:hover {
     background-color: $hoverColor;
-    color: aliceblue;
   }
 }
 

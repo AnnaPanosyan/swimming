@@ -20,7 +20,12 @@ export const data = [
           `Heraufholen eines Tauchrings mit den Händen aus schultertiefen Wasser`,
           `3-5 Baderegeln, die Sie auch auf meiner Homepage finden können`,
         ],
-        about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf spielerische Art und Weise, das sichere und eigenständige Bewegen, im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und Beinbewegungen des Schwimmens.Der Kurs wird voraussichtlich mit dem Schwimmabzeichen Seepferdchen abgeschlossen.`,
+        about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf 
+        spielerische Art und Weise, das sichere und eigenständige Bewegen, 
+        im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung 
+        das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und 
+        Beinbewegungen des Schwimmens. Der Kurs wird voraussichtlich mit dem 
+        Schwimmabzeichen Seepferdchen abgeschlossen.`,
         subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
       },
     ],

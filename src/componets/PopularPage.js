@@ -17,21 +17,24 @@ const PopularPage = ({ imgSrc, destTitle, number, id }) => {
           <h3>
             {destTitle}
           </h3>
-          <button onClick={() => handleNavigate(id)}>
-            <BsArrowRightShort className="icon" />
-          </button>
+  
         </div>
       </div>
       <div className="destFooter">
         <div className='number'>
           {number}
+          <button onClick={() => handleNavigate(id)}>
+            <BsArrowRightShort className="icon" />
+          </button>
         </div>
+       
         <div className='desText'>
           <h6>
             {destTitle}
           </h6>
         </div>
       </div>
+     
     </div>
   )
 }

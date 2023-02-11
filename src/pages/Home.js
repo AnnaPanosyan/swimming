@@ -13,7 +13,7 @@ const Home = () => {
       <section className="home">
         <div className="secContainer container">
           <div className="homeText">
-            <h1 className="title">Swimming from zero to hero</h1>
+            <h1 className="title">Swimming From Zero To Hero</h1>
             <button className="btn" onClick={handleLink}>
               Kurs buchen
             </button>
