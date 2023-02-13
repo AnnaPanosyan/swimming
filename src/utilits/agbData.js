@@ -25,7 +25,7 @@ export const agbData = [
   {
     id: uuidv4(),
     title: "§3 Kursstätte",
-    text: [`3.1 Alle Kurse werden im INI Schwimmbad durchgeführt
+    text: [`3.1 Alle Kurse werden im Lehrschwimmbecken Bad Sassendorf durchgeführt
     Adresse: Zur Hepper Höhe 4                                          
     59505 Bad Sassendorf, Deutschland`,
       `3.2 Parkplätze sind ausreichend vorhanden.`,
@@ -198,23 +198,37 @@ export const kursPlan = [
     date: "am 05. März - 07. Mai",
     day: "10 Einheiten, jeden Sonntag,( 140 €)",
     time1: "von 15:00 - 15:45 Uhr",
-    time2: "von 16:00 bis 16:45 Uhr"
+    time2: "von 16:00 bis 16:45 Uhr",
+    // reg:""
+
   },
   {
     id: uuidv4(),
     title: "Wir starten mit unserem Folge Schwimmkurs",
-    date: "am 05. März - 23. April",
+    date: "am 14. Mai - 02. Juli",
     day: "8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 17:00 - 17:45 Uhr",
-    time2: ""
+    time2: "",
+    // reg:""
   },
   {
     id: uuidv4(),
     title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
     date: "am 05. März - 23. April",
     day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
+    time1: "von 17:00 - 17:45 Uhr ",
+    time2: "",
+    // reg:""
+  },
+  {
+    id: uuidv4(),
+    title: "",
+    date: "am 30. April - 18. Juni",
+    day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 18:00 - 18:45 Uhr ",
-    time2: ""
+    time2: "(Erst ab 15. März buchbar )",
+    // reg: ""
+
   }
 ]
 

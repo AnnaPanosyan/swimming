@@ -59,7 +59,7 @@ const Footer = () => (
 
           <div className="footer_contacts">
             <h4 className="linkTitle">Anschrift</h4>
-            <p>INI Gesamtschule Bad Sassendorf</p>
+            <p>Lehrschwimmbecken Bad Sassendorf</p>
             <p>Zur Hepper Höhe 4</p>
             <p>59505 Bad Sassendorf</p>
             <Map />
