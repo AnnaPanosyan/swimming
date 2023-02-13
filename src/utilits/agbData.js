@@ -25,7 +25,9 @@ export const agbData = [
   {
     id: uuidv4(),
     title: "§3 Kursstätte",
-    text: [`3.1 Alle Kurse werden im Lehrschwimmbecken Bad Sassendorf durchgeführt
+    text: [`3.1 Alle Kurse werden im Lehrschwimmbecken Bad Sassendorf
+
+    durchgeführt
     Adresse: Zur Hepper Höhe 4                                          
     59505 Bad Sassendorf, Deutschland`,
       `3.2 Parkplätze sind ausreichend vorhanden.`,
@@ -227,7 +229,7 @@ export const kursPlan = [
     day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 18:00 - 18:45 Uhr ",
     time2: "(Erst ab 15. März buchbar )",
-    // reg: ""
+    reg: ""
 
   }
 ]

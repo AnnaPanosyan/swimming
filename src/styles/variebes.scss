@@ -4,20 +4,22 @@ $Poppins: "Poppins", sans-serif;
 //colors
 $bg: #ebf9f9;
 $dark: rgb(14, 35, 156);
-$light:  #35C759;// rgb(157, 255, 0);
+$light: #35c759; // rgb(157, 255, 0);
 $hoverColor: rgb(84, 227, 70);
 
 $blackColor: rgb(6, 26, 48);
 $primaryColor: rgba(45, 108, 180, 0.3);
 $inputText: rgb(2, 2, 1);
 $textColor: rgba(45, 108, 180);
-$greyBg: rgb(208, 231, 247);
+$footerBg: rgb(208, 231, 247);
+$greyBg: #ffff;
+
 $spacing-md: 16px;
 $spacing-lg: 32px;
 $borderRedius: 12px;
 $bgImg: "bgimg.jpeg";
 $breakpoints: (
-        "tablet": 768px,
+  "tablet": 768px,
 ) !default;
 * {
   box-sizing: border-box;
