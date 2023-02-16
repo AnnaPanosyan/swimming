@@ -201,7 +201,6 @@ export const kursPlan = [
     day: "10 Einheiten, jeden Sonntag,( 140 €)",
     time1: "von 15:00 - 15:45 Uhr",
     time2: "von 16:00 bis 16:45 Uhr",
-    // reg:""
 
   },
   {
@@ -210,8 +209,7 @@ export const kursPlan = [
     date: "am 14. Mai - 02. Juli",
     day: "8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 17:00 - 17:45 Uhr",
-    time2: "",
-    // reg:""
+    
   },
   {
     id: uuidv4(),
@@ -219,8 +217,6 @@ export const kursPlan = [
     date: "am 05. März - 23. April",
     day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 17:00 - 17:45 Uhr ",
-    time2: "",
-    // reg:""
   },
   {
     id: uuidv4(),
@@ -229,7 +225,6 @@ export const kursPlan = [
     day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 18:00 - 18:45 Uhr ",
     time2: "(Erst ab 15. März buchbar )",
-    reg: ""
 
   }
 ]
@@ -253,7 +248,7 @@ export const baderegeln = [
   {
     id: uuidv4(),
     number: 4,
-    text: `. Nur springen, wenn dass Wasser unter dir tief genug und frwi ist !`
+    text: `. Nur springen, wenn dass Wasser unter dir tief genug und frei ist !`
   },
   {
     id: uuidv4(),
