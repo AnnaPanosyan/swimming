@@ -8,9 +8,9 @@
   }
   .kursPlan_des {
     background-color: rgba(45, 108, 180, 0.1);
-    padding: 2rem 4rem;
+    padding: 0rem 4rem;
     @media (max-width: 768px) {
-      padding: 1.5rem;
+      padding: 0.5rem;
     }
     .title {
       display: flex;
@@ -47,7 +47,7 @@
         background-color: $light;
         border-radius: 3rem;
         padding: 1rem;
-        color:$greyBg;
+        color: $greyBg;
         cursor: pointer;
         @media (max-width: 468px) {
           margin-top: 20px;
