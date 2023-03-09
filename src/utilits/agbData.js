@@ -225,7 +225,7 @@ export const kursPlan = [
     date: "am 30. April - 18. Juni",
     day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 18:00 - 18:45 Uhr",
-    time2: "(Erst ab 15. März buchbar )",
+
 
   }
 ]
