@@ -211,23 +211,22 @@ export const kursPlan = [
     time2: "von 16:00 - 16:45 Uhr",
 
   },
-  {
-    id: uuidv4(),
-    title: "Wir starten mit unserem Folge Schwimmkurs",
-    date: "am 14. Mai - 02. Juli",
-    day: "8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
-    time1: "von 17:00 - 17:45 Uhr",
 
-  },
   {
     id: uuidv4(),
     title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
     date: "am 30. April - 18. Juni",
     day: " 8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 18:00 - 18:45 Uhr",
+  },
+  {
+    id: uuidv4(),
+    title: "",
+    date: "am 14. Mai - 02. Juli",
+    day: "8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
+    time1: "von 17:00 - 17:45 Uhr",
 
-
-  }
+  },
 ]
 
 export const baderegeln = [

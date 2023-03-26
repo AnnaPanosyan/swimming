@@ -151,10 +151,11 @@ const KursBuchen = () => {
               <option value={"Anfänger Schwimmkursen/ am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr"}>
                 Anfänger Schwimmkursen / am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr
               </option>
-              <option value={"Folge Schwimmkurs//am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr"}>Folge Schwimmkurs /am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr
-              </option>
               <option value={"Bronze, Silber und Gold Schwimmkursen/ am 30. April - 18. Juni / von 18:00 - 18:45 Uhr"}>
                 Bronze, Silber und Gold Schwimmkursen / am 30. April - 18. Juni / von 18:00 - 18:45 Uhr
+              </option>
+              <option value={"Bronze, Silber und Gold Schwimmkursen//am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr"}>
+                Bronze, Silber und Gold Schwimmkursen /am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr
               </option>
             </NativeSelect>
           </FormControl>
