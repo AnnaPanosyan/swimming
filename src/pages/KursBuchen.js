@@ -27,7 +27,7 @@ const KursBuchen = () => {
 
     emailjs
       .sendForm(
-        "service_sn9elzn",
+        "service_57lj20f",
         "template_7mrip0j",
         form.current,
         "tmD6DfLWRyEbl4efE"
