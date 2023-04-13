@@ -80,8 +80,11 @@ const Footer = () => (
               </li>
             ))}
           </ul>
+          <div>Copyright © <a href="/">Swimming From Zero To Hero
+          </a> 2023.</div>
         </div>
       </div>
+
     </div>
   </div>
 );

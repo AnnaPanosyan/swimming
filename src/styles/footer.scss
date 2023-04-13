@@ -76,12 +76,23 @@
 }
 
 .footer_rolls {
+  display: flex;
+  flex-direction: column;
+
   ul {
     display: flex;
     justify-content: center;
     max-width: 100px;
     margin: auto;
     gap: 2rem;
+  }
+  div {
+    margin: auto;
+    font-weight: 300;
+    font-size: small;
+    a:hover {
+      color: $light;
+    }
   }
 }
 
