@@ -1,5 +1,5 @@
 import img1 from "../assets/kids.jpg";
-import img2 from "../assets/boy.jpg";
+import img2 from "../assets/bgimg1.jpeg";
 import img3 from "../assets/pool.jpg";
 
 export const data = [
@@ -29,35 +29,32 @@ export const data = [
         subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
       },
     ],
-    duration: "45 Minuten",
+    duration1: "45 Minuten",
     lessons: "10 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 140",
+    preis1: "Preis 140",
   },
   {
     id: 2,
     number: "02",
     imgSrc: img2,
-    destTitle: "Folge - Schwimmkurs",
-    age: "ab 5 Jahre",
+    destTitle: "Einzelschwimmunterricht für Kinder und Erwachsene",
+    age: "",
     description: [
       {
         rouls: [
-          `Das Hauptziel wird sein, 
-        die 25 m selbstständig, ohne jegliche Schwimmhilfen zu 
-        schwimmen und einen Tauchring aus schultertiefen Wasser 
-        hinauf zu holen, sowie alle Baderegeln kennen zu lernen.`,
         ],
-        about: `Der Folge Schwimmkurs ist für diejenigen, 
-        die kurz vor dem Seepferdchen-Abzeichen stehen. In diesem Aufbaukurs werden die Kinder 
-        ihr vorhandenes können aufbessern und festigen.`,
-        subTitle: "Anforderungen zum Schwimmabzeichen Folge",
+        about:   ` `
+        ,
+        subTitle: "",
       },
     ],
-    duration: "45 Minuten",
-    lessons: "8 Trainingseinheiten",
-    kids: "von 8-12 Kinder",
-    preis: "Preis 130",
+    duration1: "  1 x 45 Minuten" , 
+    duration2: "  5 x 45 Minuten" , 
+    kids: "",
+    preis1: " Preis 30",
+    preis2: " Preis 125"  
+  
   },
   {
     id: 3,
@@ -129,9 +126,9 @@ export const data = [
       },
     ],
 
-    duration: "45 Minuten",
+    duration1: "45 Minuten",
     lessons: "8 Trainingseinheiten",
     kids: "von 8-12 Kinder",
-    preis: "Preis 130",
+    preis1: "Preis 130",
   },
 ];

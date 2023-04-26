@@ -24,6 +24,8 @@ const Kursplan = () => {
                 <p className="info_item">{item.day}</p>
                 <p className="info_item">{item.time1}</p>
                 <p className="info_item">{item.time2}</p>
+                <p className="info_item">{item.time3}</p>
+
               </div>
               <button className="kursBtn" onClick={handleLink}>
                 Kurs buchen

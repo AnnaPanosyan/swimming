@@ -36,24 +36,31 @@ const Courses = () => {
                     <div className="amenities">
                       <div className="singleAmenity">
                         <AiFillClockCircle className="icon" />
-                        <span>{cours.duration}</span>
-                      </div>
-                      <div className="singleAmenity">
-                        <TbSwimming className="icon" />
-                        <span>{cours.lessons}</span>
-                      </div>
-                      <div className="singleAmenity">
-                        <AiOutlineUsergroupAdd className="icon" />
-                        <span>{cours.kids}</span>
+                        <span>{cours.duration1}</span>
+                        {/* <span>{cours.duration2}</span> */}
                       </div>
                       <div className="singleAmenity">
                         <AiFillEuroCircle className="icon" />
-                        <span>{cours.preis}</span>
+                        <span>{cours.preis1}</span>
                       </div>
+                      <div className="singleAmenity">
+                        {cours.lessons && <TbSwimming className="icon" />}
+                        <span>{cours.lessons}</span>
+                      </div>
+                      <div className="singleAmenity">
+                        {cours.kids ?<><AiOutlineUsergroupAdd className="icon" /> <span>{cours.kids}</span></>:<><AiFillClockCircle className="icon" /> 
+                        <span>{cours.duration2}</span>
+                        <span></span>
+                        <AiFillEuroCircle className="icon" />
+                        <span>{cours.preis2}</span>
+                       </>}
+                      </div>
+                      
                     </div>
-                    <button className="btn" onClick={handleLink}>
+                    {cours.kids?<button className="btn" onClick={handleLink}>
                       Kurs buchen
-                    </button>
+                    </button>:"Alle Termine müssen per E-Mail oder telefonisch vereinbart werden."}
+                    
                   </div>
                   <div className="destImage">
                     <img src={cours.imgSrc} alt="title" />

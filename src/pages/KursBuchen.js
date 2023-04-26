@@ -149,8 +149,26 @@ const KursBuchen = () => {
               <option value={"Anfänger Schwimmkursen/ am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr"}>
                 Anfänger Schwimmkursen / am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr
               </option>
+              <option >
+                
+              </option>
+              <option value={"Anfänger Schwimmkursen// am 14. Mai - 16. Juli / von 15:00 - 15:45 Uhr"}>
+                Anfänger Schwimmkursen / am 13. August - 05. November/ von 14:00 - 14:45 Uhr
+              </option>
+              <option value={"Anfänger Schwimmkursen/ am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr"}>
+              Anfänger Schwimmkursen / am 13. August - 05. November/ von 15:00 - 15:45 Uhr
+              </option>
+              <option value={"Anfänger Schwimmkursen/ am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr"}>
+              Anfänger Schwimmkursen / am 13. August - 05. November/ von 16:00 - 16:45 Uhr
+              </option>
+              <option >
+
+              </option>
               <option value={"Bronze, Silber und Gold Schwimmkursen//am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr"}>
-                Bronze, Silber und Gold Schwimmkursen /am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr
+                Bronze, Silber und Gold Schwimmkursen /am 13. August - 22. Oktober/ von 17:00 - 17:45 Uhr
+              </option>
+              <option value={"Bronze, Silber und Gold Schwimmkursen//am 14. Mai - 02. Juli/ von 17:00 - 17:45 Uhr"}>
+                Bronze, Silber und Gold Schwimmkursen /am 13. August - 22. Oktober/ von 18:00 - 18:45 Uhr
               </option>
             </NativeSelect>
           </FormControl>
