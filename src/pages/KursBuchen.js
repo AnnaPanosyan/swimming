@@ -142,16 +142,8 @@ const KursBuchen = () => {
               }}
             >
               <option value={""}></option>
-
-              <option value={"Anfänger Schwimmkursen// am 14. Mai - 16. Juli / von 15:00 - 15:45 Uhr"}>
-                Anfänger Schwimmkursen / am 14. Mai - 16. Juli / von 15:00 - 15:45 Uhr
-              </option>
-              <option value={"Anfänger Schwimmkursen/ am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr"}>
-                Anfänger Schwimmkursen / am 14. Mai - 16. Juli / von 16:00 - 16:45 Uhr
-              </option>
-              <option >
-
-              </option>
+              
+              <option ></option>
               <option value={" Anfänger Schwimmkursen / am 13. August - 05. November/ von 14:00 - 14:45 Uhr"}>
                 Anfänger Schwimmkursen / am 13. August - 05. November/ von 14:00 - 14:45 Uhr
               </option>

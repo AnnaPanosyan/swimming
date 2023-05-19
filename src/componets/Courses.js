@@ -48,19 +48,19 @@ const Courses = () => {
                         <span>{cours.lessons}</span>
                       </div>
                       <div className="singleAmenity">
-                        {cours.kids ?<><AiOutlineUsergroupAdd className="icon" /> <span>{cours.kids}</span></>:<><AiFillClockCircle className="icon" /> 
-                        <span>{cours.duration2}</span>
-                        <span></span>
-                        <AiFillEuroCircle className="icon" />
-                        <span>{cours.preis2}</span>
-                       </>}
+                        {cours.kids ? <><AiOutlineUsergroupAdd className="icon" /> <span>{cours.kids}</span></> : <><AiFillClockCircle className="icon" />
+                          <span>{cours.duration2}</span>
+                          <span></span>
+                          <AiFillEuroCircle className="icon" />
+                          <span>{cours.preis2}</span>
+                        </>}
                       </div>
-                      
+
                     </div>
-                    {cours.kids?<button className="btn" onClick={handleLink}>
+                    {cours.kids ? <button className="btn" onClick={handleLink}>
                       Kurs buchen
-                    </button>:"Alle Termine müssen per E-Mail oder telefonisch vereinbart werden."}
-                    
+                    </button> : "Alle Termine müssen per E-Mail oder telefonisch vereinbart werden."}
+
                   </div>
                   <div className="destImage">
                     <img src={cours.imgSrc} alt="title" />
@@ -71,7 +71,7 @@ const Courses = () => {
                   {cours.description.map((item, index) => (
                     <div key={index}>
                       <p>{item.about}</p>
-                      <div className="courses_rule">
+                      {item.rouls.length ? <div className="courses_rule">
                         <h2 className="courses_title">{item.subTitle}</h2>
                         <ul className="courses_list">
                           {item.rouls.map((item, index) => (
@@ -81,7 +81,10 @@ const Courses = () => {
                             </li>
                           ))}
                         </ul>
+
+                      </div> : <div>
                       </div>
+                      }
                     </div>
                   ))}
                 </div>

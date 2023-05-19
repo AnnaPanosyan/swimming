@@ -24,7 +24,7 @@ export const navlinks = [
   //  {
   //   id: uuidv4(),
   //   link: 'Feedback',
-  //   to: 'feedback'
+  //   to: '/feedback'
   // },
   {
     id: uuidv4(),

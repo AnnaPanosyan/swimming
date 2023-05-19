@@ -9,8 +9,19 @@ export const data = [
     imgSrc: img1,
     destTitle: "Anfänger - Schwimmkurse",
     age: "ab 5 Jahre",
+    duration1: "45 Minuten",
+    lessons: "10 Trainingseinheiten",
+    kids: "von 8-12 Kinder",
+    preis1: "Preis 140",
     description: [
       {
+        subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
+        about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf 
+        spielerische Art und Weise, das sichere und eigenständige Bewegen, 
+        im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung 
+        das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und 
+        Beinbewegungen des Schwimmens. Der Kurs wird voraussichtlich mit dem 
+        Schwimmabzeichen Seepferdchen abgeschlossen.`,
         rouls: [
           `Ein Sprung vom Beckenrand mit anschließendem 25 m
       Schwimmen (ohne Schwimmhilfe) in eine Schwimmart
@@ -20,19 +31,10 @@ export const data = [
           `Heraufholen eines Tauchrings mit den Händen aus schultertiefen Wasser`,
           `3-5 Baderegeln, die Sie auch auf meiner Homepage finden können`,
         ],
-        about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf 
-        spielerische Art und Weise, das sichere und eigenständige Bewegen, 
-        im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung 
-        das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und 
-        Beinbewegungen des Schwimmens. Der Kurs wird voraussichtlich mit dem 
-        Schwimmabzeichen Seepferdchen abgeschlossen.`,
-        subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
+       
       },
     ],
-    duration1: "45 Minuten",
-    lessons: "10 Trainingseinheiten",
-    kids: "von 8-12 Kinder",
-    preis1: "Preis 140",
+   
   },
   {
     id: 2,
@@ -40,21 +42,29 @@ export const data = [
     imgSrc: img2,
     destTitle: "Einzelschwimmunterricht für Kinder und Erwachsene",
     age: "",
-    description: [
-      {
-        rouls: [
-        ],
-        about:   ` `
-        ,
-        subTitle: "",
-      },
-    ],
     duration1: "  1 x 45 Minuten" , 
     duration2: "  5 x 45 Minuten" , 
     kids: "",
     preis1: " Preis 30",
-    preis2: " Preis 125"  
-  
+    preis2: " Preis 125"  ,
+    description: [
+      {
+        subTitle: "Einzelschwimmunterricht für Kinder und Erwachsene",
+        about:   `Im Einzelunterricht kann ich, als persönlicher Schwimmlehrer, noch effektiver und individueller auf die  Bedürfnisse des Kindes eingehen, als im Gruppenunterricht.
+        Der Einzelunterricht ist besonders vorteilhaft bei Vorliegen von: `,
+        rouls: [`Konzentrationsschwäche`,`Koordinationsschwäche`,`Ängste im Wasser`],
+      },
+      {
+        subTitle:"",
+        about:`Der Einzelunterricht bietet zusätzlich die Möglichkeit, das Schwimmen innerhalb kürzester Zeit zu lernen.`,
+        rouls:[],
+      },
+      {
+        subTitle:"",
+        about:`Desweiteren biete ich meinen Einzelunterricht für Erwachsene an, die ihre technik verbessern wollen oder  das Schwimmen zu erlernen, oder sich unwohl fühlen als Erwachsener an einem Schwimmkurs teilzunehmen.`,
+        rouls:[],
+      }
+    ],
   },
   {
     id: 3,
@@ -62,8 +72,19 @@ export const data = [
     imgSrc: img3,
     destTitle: "Bronze, Silber - und Goldkurs",
     age: "von 6 - 14 Jahre",
+    duration1: "45 Minuten",
+    lessons: "8 Trainingseinheiten",
+    kids: "von 8-12 Kinder",
+    preis1: "Preis 130",
     description: [
       {
+        subTitle: "Anforderungen zum Schwimmabzeichen Bronze",
+        about: `dieser ist ein Kurs für diejenigen, die bereits schwimmen können und das Seepferdchen 
+        Schwimmabzeichen besitzen.
+        Jedes Kind muss sich ohne Hilfsmittel über Wasser halten können. 
+       im Bronzekurs werden die Kinder ihre bereits erlernten Fähigkeiten  verbessern und Kondition aufbauen, 
+       vor allem das Brustschwimmen wird gefestigt.
+       erst mit dem Erwerb des DSA Bronze gilt ihr Kind als sichere/r Schwimmer/in.`,
         rouls: [
           ` Sprung Kopfwärts vom Beckenrand 
       und 15 Minuten Schwimmen. In dieser Zeit 
@@ -79,15 +100,14 @@ export const data = [
           `ein Paketsprung vom Startblock oder 1 m- Brett`,
           `Baderegeln`,
         ],
-        about: `dieser ist ein Kurs für diejenigen, die bereits schwimmen können und das Seepferdchen 
-      Schwimmabzeichen besitzen.
-      Jedes Kind muss sich ohne Hilfsmittel über Wasser halten können. 
-     im Bronzekurs werden die Kinder ihre bereits erlernten Fähigkeiten  verbessern und Kondition aufbauen, 
-     vor allem das Brustschwimmen wird gefestigt.
-     erst mit dem Erwerb des DSA Bronze gilt ihr Kind als sichere/r Schwimmer/in.`,
-        subTitle: "Anforderungen zum Schwimmabzeichen Bronze",
+       
       },
       {
+        subTitle: "Anforderungen zum Silber",
+        about: `Bei den Silber-und Goldkurse, wird  das Gelerntes nochmal vertieft.
+        Der Kurs ist anspruchsvoller, d.h. hier werden z.B. Rückenschwimmen und Kraulen erlernt und geübt, 
+        sowie Streckentauchen. Schwimmsicherheit, Ausdauer und Muskelkraft werden weiter ausgebaut.
+        In unseren Silber- und Goldkurse dürfen Kinder ab 9 Jahren teilnehmen.`,
         rouls: [
           `Sprung Kopfwärts vom Beckenrand und 20 Minuten Schwimmen. In dieser Zeit sind mindestens 
       400 m zurückzulegen, davon 300 m in Bauch- oder Rückenlage in einer erkennbaren Schwimmart und 100 
@@ -98,13 +118,11 @@ export const data = [
           `10 m Streckentauchen mit Abstoßen vom Beckenrand im Wasser.`,
           `Sprung aus 3 m Höhe oder zwei verschiedene Sprünge aus 1 m Höhe`,
         ],
-        about: `Bei den Silber-und Goldkurse, wird  das Gelerntes nochmal vertieft.
-      Der Kurs ist anspruchsvoller, d.h. hier werden z.B. Rückenschwimmen und Kraulen erlernt und geübt, 
-      sowie Streckentauchen. Schwimmsicherheit, Ausdauer und Muskelkraft werden weiter ausgebaut.
-      In unseren Silber- und Goldkurse dürfen Kinder ab 9 Jahren teilnehmen.`,
-        subTitle: "Anforderungen zum Silber",
+       
       },
       {
+        subTitle: "Anforderungen zum Goldkurse",
+        about: "",
         rouls: [
           `Sprung Kopfwärts vom Beckenrand und 30 Minuten Schwimmen. In dieser Zeit sind mindestens 
       800 m zurückzulegen, davon 650 m in den Bauch- oder Rückenlage in einer erkennbaren Schwimmart und 
@@ -121,14 +139,10 @@ export const data = [
           `ein Sprung aus 3 m Höhe oder zwei verschiedene Sprünge aus 1 m Höhe`,
           ` 50 m Transport schwimmen: Schieben oder Ziehen`,
         ],
-        about: "",
-        subTitle: "Anforderungen zum Goldkurse",
+      
       },
     ],
 
-    duration1: "45 Minuten",
-    lessons: "8 Trainingseinheiten",
-    kids: "von 8-12 Kinder",
-    preis1: "Preis 130",
+
   },
 ];

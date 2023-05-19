@@ -11,6 +11,7 @@ import AGB from "./componets/AGB";
 import Impressum from "./componets/Impressum";
 import Courses from "./componets/Courses";
 import Datenschutz from "./componets/Datenschutz";
+import Feedback from "./pages/Feedback";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/kursbuchen" element={<KursBuchen />} />
         <Route path="/kursplan" element={<Kursplan />} />
         <Route path="/kontact" element={<Kontact />} />
+        <Route path="/feedback" element={<Feedback/>} />
         <Route path="/baderegeln" element={<Baderegeln />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/courses/:id" element={<Courses />} />

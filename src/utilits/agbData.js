@@ -197,15 +197,6 @@ export const kursPlan = [
   {
     id: uuidv4(),
     title: "Wir starten mit unseren Anfänger Schwimmkursen",
-    date: "am 14. Mai - 16. Juli",
-    day: "10 Einheiten, jeden Sonntag,( 140 €)",
-    time1: "von 15:00 - 15:45 Uhr",
-    time2: "von 16:00 - 16:45 Uhr",
-
-  },
-  {
-    id: uuidv4(),
-    title: "",
     date: "am 13. August - 05. November",
     day: "10 Einheiten, jeden Sonntag,( 140 €)",
     time1: "von 14:00 - 14:45 Uhr",
