@@ -31,10 +31,10 @@ export const data = [
           `Heraufholen eines Tauchrings mit den Händen aus schultertiefen Wasser`,
           `3-5 Baderegeln, die Sie auch auf meiner Homepage finden können`,
         ],
-       
+
       },
     ],
-   
+
   },
   {
     id: 2,
@@ -42,27 +42,27 @@ export const data = [
     imgSrc: img2,
     destTitle: "Einzelschwimmunterricht für Kinder und Erwachsene",
     age: "",
-    duration1: "  1 x 45 Minuten" , 
-    duration2: "  5 x 45 Minuten" , 
+    duration1: "  1 x 45 Minuten",
+    duration2: "  5 x 45 Minuten",
     kids: "",
     preis1: " Preis 30",
-    preis2: " Preis 125"  ,
+    preis2: " Preis 125",
     description: [
       {
-        subTitle: "Einzelschwimmunterricht für Kinder und Erwachsene",
-        about:   `Im Einzelunterricht kann ich, als persönlicher Schwimmlehrer, noch effektiver und individueller auf die  Bedürfnisse des Kindes eingehen, als im Gruppenunterricht.
+        subTitle: "",
+        about: `Im Einzelunterricht kann ich, als persönlicher Schwimmlehrer, noch effektiver und individueller auf die  Bedürfnisse des Kindes eingehen, als im Gruppenunterricht.
         Der Einzelunterricht ist besonders vorteilhaft bei Vorliegen von: `,
-        rouls: [`Konzentrationsschwäche`,`Koordinationsschwäche`,`Ängste im Wasser`],
+        rouls: [`Konzentrationsschwäche`, `Koordinationsschwäche`, `Ängste im Wasser`],
       },
       {
-        subTitle:"",
-        about:`Der Einzelunterricht bietet zusätzlich die Möglichkeit, das Schwimmen innerhalb kürzester Zeit zu lernen.`,
-        rouls:[],
+        subTitle: "",
+        about: `Der Einzelunterricht bietet zusätzlich die Möglichkeit, das Schwimmen innerhalb kürzester Zeit zu lernen.`,
+        rouls: [],
       },
       {
-        subTitle:"",
-        about:`Desweiteren biete ich meinen Einzelunterricht für Erwachsene an, die ihre technik verbessern wollen oder  das Schwimmen zu erlernen, oder sich unwohl fühlen als Erwachsener an einem Schwimmkurs teilzunehmen.`,
-        rouls:[],
+        subTitle: "",
+        about: `Desweiteren biete ich meinen Einzelunterricht für Erwachsene an, die ihre technik verbessern wollen oder  das Schwimmen zu erlernen, oder sich unwohl fühlen als Erwachsener an einem Schwimmkurs teilzunehmen.`,
+        rouls: [],
       }
     ],
   },
@@ -100,7 +100,7 @@ export const data = [
           `ein Paketsprung vom Startblock oder 1 m- Brett`,
           `Baderegeln`,
         ],
-       
+
       },
       {
         subTitle: "Anforderungen zum Silber",
@@ -118,7 +118,7 @@ export const data = [
           `10 m Streckentauchen mit Abstoßen vom Beckenrand im Wasser.`,
           `Sprung aus 3 m Höhe oder zwei verschiedene Sprünge aus 1 m Höhe`,
         ],
-       
+
       },
       {
         subTitle: "Anforderungen zum Goldkurse",
@@ -139,7 +139,7 @@ export const data = [
           `ein Sprung aus 3 m Höhe oder zwei verschiedene Sprünge aus 1 m Höhe`,
           ` 50 m Transport schwimmen: Schieben oder Ziehen`,
         ],
-      
+
       },
     ],
 
