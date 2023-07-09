@@ -1,6 +1,8 @@
 import img1 from "../assets/kids.jpg";
 import img2 from "../assets/bgimg1.jpeg";
 import img3 from "../assets/pool.jpg";
+import img4 from '../assets/boy.jpg'
+import { useState } from "react";
 
 export const data = [
   {
@@ -145,4 +147,39 @@ export const data = [
 
 
   },
+  // {
+  //   id: 4,
+  //   number: "04",
+  //   imgSrc: img4,
+  //   destTitle: "Jahreskurs",
+  //   age: "ab 6 Jahre",
+  //   duration1: "45 Minuten",
+  //   lessons: "Das ganze Jahr",
+  //   kids: "von 8-12 Kinder",
+  //   preis1: "Preis 200",
+  //   description: [
+  //     {
+  //       subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
+  //       about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf 
+  //       spielerische Art und Weise, das sichere und eigenständige Bewegen, 
+  //       im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung 
+  //       das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und 
+  //       Beinbewegungen des Schwimmens. Der Kurs wird voraussichtlich mit dem 
+  //       Schwimmabzeichen Seepferdchen abgeschlossen.`,
+  //       rouls: [
+  //         `Ein Sprung vom Beckenrand mit anschließendem 25 m
+  //     Schwimmen (ohne Schwimmhilfe) in eine Schwimmart
+  //     in Bauch oder Rückenlage
+  //     ( Grobform, während des Schwimmens in Bauchlage
+  //     erkennbar ins Wasser ausatmen)`,
+  //         `Heraufholen eines Tauchrings mit den Händen aus schultertiefen Wasser`,
+  //         `3-5 Baderegeln, die Sie auch auf meiner Homepage finden können`,
+  //       ],
+
+  //     },
+  //   ],
+
+  // },
 ];
+
+

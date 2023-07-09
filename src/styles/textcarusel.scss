@@ -1,0 +1,30 @@
+.carousel-root {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.slide {
+  display: flex;
+  background-color: rgba(45, 108, 180, 0.1);
+  border-radius: 2rem;
+  padding: 60px;
+}
+
+.slide h2 {
+  font-size: 24px;
+  color: $dark;
+  font-style: italic;
+}
+.feedback_des {
+  text-align: center;
+  max-width: 685px;
+  padding: 2rem 1.5rem;
+  margin: 2rem auto;
+  .name {
+    display: flex;
+    align-items: center;
+    // border-bottom: 2px solid #35c759;
+    margin: 0 2rem;
+  }
+}

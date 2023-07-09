@@ -11,7 +11,9 @@
 @import "./kontac";
 @import"./kursBuchen";
 @import"./datenschutz";
-
+@import"./textcarusel";
+@import"./starRating";
+@import"./feedback";
 @media (max-width: 556px) {
   .mainContent {
     grid-template-columns: repeat(2, 1fr);

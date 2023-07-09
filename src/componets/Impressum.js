@@ -12,7 +12,7 @@ const Impressum = () => (
         <p className="title"> Angaben gemäs § 5 TMG </p>
         <p className="linkTitle">Swimming From Zero to Hero</p>
         <p className="linkTitle">Arno Setaghyan</p>
-        <p className="linkTitle">Steinmickerweg 6</p>
+        <p className="linkTitle">Beethovenweg 3</p>
         <p className="linkTitle">59505 Bad Sassendorf</p>
         <p className="links">
           <a href="tel:+ 49 17624310872" className="phone">

@@ -22,7 +22,7 @@ const PopularPage = ({ imgSrc, destTitle, number, id }) => {
       </div>
       <div className="destFooter">
         <div className='number'>
-          {number}
+         <p> {number}</p>
           <button onClick={() => handleNavigate(id)}>
             <BsArrowRightShort className="icon" />
           </button>
