@@ -197,21 +197,28 @@ export const kursPlan = [
   {
     id: uuidv4(),
     title: "Wir starten mit unseren Anfänger Schwimmkursen",
-    date: "am 13. August - 05. November",
+    date: "am 14. Januar - 17. März",
     day: "10 Einheiten, jeden Sonntag,( 140 €)",
-    time1: "von 14:00 - 14:45 Uhr",
-    time2: "von 15:00 - 15:45 Uhr",
-    time3: "von 16:00 - 16:45 Uhr",
-
+    time1: "von 15:00 - 15:45 Uhr",
+    time2: "von 16:00 - 16:45 Uhr",
   },
 
   {
     id: uuidv4(),
     title: " Wir starten mit unseren Bronze, Silber und Gold Schwimmkursen",
-    date: "am 13. August - 22. Oktober",
+    date: "am 28. Januar - 17. März",
     day: "8 Trainingseinheiten, jeden Sonntag, ( 130 €)",
     time1: "von 17:00 - 17:45 Uhr",
     time2: "von 18:00 - 18:45 Uhr",
+
+  },
+  {
+    id: uuidv4(),
+    title: "Wir starten mit unserem Jahreskurs ",
+    date: "am 04. Februar 2024 - 02. Februar 2025",
+    day: "jeden Sonntag, 4 Wochen Training (1x pro Woche): ( 40 €)",
+    time1: "von 18:30 - 19:15 Uhr",
+    time2: "",
 
   },
 

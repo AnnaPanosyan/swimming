@@ -52,10 +52,10 @@ const KursBuchen = () => {
             <TextField
               required
               id="filled-required"
-              label="Familienname"
+              label="FamilienName"
               defaultValue=""
               variant="filled"
-              name="user_name"
+              name="user_lastName"
               sx={{ m: 2 }}
             />
             <TextField
@@ -64,7 +64,7 @@ const KursBuchen = () => {
               label="Vorname (Kursteilnehmer)"
               defaultValue=""
               variant="filled"
-              name="user_lastName"
+              name="user_name"
               sx={{ m: 2 }}
             />
             <TextField
@@ -73,6 +73,15 @@ const KursBuchen = () => {
               type="tel"
               variant="filled"
               name="user_tel"
+              sx={{ m: 2 }}
+            />
+            <TextField
+              required
+              id="filled-required"
+              label="Adresse"
+              defaultValue=""
+              variant="filled"
+              name="user_adresse"
               sx={{ m: 2 }}
             />
             <TextField
@@ -142,25 +151,30 @@ const KursBuchen = () => {
               }}
             >
               <option value={""}></option>
-              
+
               <option ></option>
-              <option value={" Anfänger Schwimmkursen / am 13. August - 05. November/ von 14:00 - 14:45 Uhr"}>
-                Anfänger Schwimmkursen / am 13. August - 05. November/ von 14:00 - 14:45 Uhr
+              <option value={" Anfänger Schwimmkursen / am 14. Januar - 17. März/ von 15:00 - 15:45 Uhr"}>
+                Anfänger Schwimmkursen /am 14. Januar - 17. März/ von 15:00 - 15:45 Uhr
               </option>
-              <option value={" Anfänger Schwimmkursen / am 13. August - 05. November/ von 15:00 - 15:45 Uhr"}>
-                Anfänger Schwimmkursen / am 13. August - 05. November/ von 15:00 - 15:45 Uhr
+              <option value={" Anfänger Schwimmkursen / am 14. Januar - 17. März/ von 16:00 - 16:45 Uhr"}>
+                Anfänger Schwimmkursen / am 14. Januar - 17. März/ von 16:00 - 16:45 Uhr
               </option>
-              <option value={"Anfänger Schwimmkursen / am 13. August - 05. November/ von 16:00 - 16:45 Uhr"}>
-                Anfänger Schwimmkursen / am 13. August - 05. November/ von 16:00 - 16:45 Uhr
-              </option>
+
               <option >
 
               </option>
-              <option value={"Bronze, Silber und Gold Schwimmkursen /am 13. August - 22. Oktober/ von 17:00 - 17:45 Uhr"}>
-                Bronze, Silber und Gold Schwimmkursen /am 13. August - 22. Oktober/ von 17:00 - 17:45 Uhr
+              <option value={"Bronze, Silber und Gold Schwimmkursen /am 28. Januar - 17. März/ von 17:00 - 17:45 Uhr"}>
+                Bronze, Silber und Gold Schwimmkursen /am 28. Januar - 17. März/ von 17:00 - 17:45 Uhr
               </option>
-              <option value={"Bronze, Silber und Gold Schwimmkursen /am 13. August - 22. Oktober/ von 18:00 - 18:45 Uhr"}>
-                Bronze, Silber und Gold Schwimmkursen /am 13. August - 22. Oktober/ von 18:00 - 18:45 Uhr
+              <option value={"Bronze, Silber und Gold Schwimmkursen /am 28. Januar - 17. März/ von 18:00 - 18:45 Uhr"}>
+                Bronze, Silber und Gold Schwimmkursen /am 28. Januar - 17. März/ von 18:00 - 18:45 Uhr
+              </option>
+              
+              <option>
+
+              </option>
+              <option value={"Jahreskurs /am 04. Februar 2024 - 02. Februar 2025/ von 18:30 - 19:15 Uhr"}>
+                Jahreskurs/am 04. Februar 2024 - 02. Februar 2025/ von 18:30 - 19:15 Uhr
               </option>
             </NativeSelect>
           </FormControl>

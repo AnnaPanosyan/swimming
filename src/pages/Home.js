@@ -3,9 +3,6 @@ import { useNavigate } from "react-router-dom";
 import Popular from "../componets/Popular";
 import { firestore } from "../Firebase";
 import { collection, onSnapshot, query } from "firebase/firestore";
-import { TbSwimming } from "react-icons/tb";
-import CaruselFeedBack from "../componets/TextCarousel";
-import { ButtonBack, ButtonNext, CarouselProvider, Slide, Slider } from "pure-react-carousel";
 import TextCarousel from "../componets/TextCarousel";
 
 const Home = () => {
@@ -52,40 +49,6 @@ const Home = () => {
           </button>
         </div>
         <TextCarousel feedback={feedback} />
-        {/* <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={125}
-        totalSlides={3}
-      >
-        <Slider >
-          {feedback.map((item, index)=>{
-            return(
-                       <Slide   className="feedback_des" index={index}>
-                        <h4 className="name">
-                {item.name}
-              </h4>
-                        {item.text}</Slide>
-            )
-
-          })}
-
-          
-        </Slider>
-        <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext>
-      </CarouselProvider> */}
-        {/* <div>
-          {feedback.map((item) => (
-            <div key={item.id} className="feedback_des">
-              <h4 className="name">
-                {item.name}
-                <TbSwimming className="icon" />
-              </h4>
-              <p className="feedback_text">{item.text}</p>
-            </div>
-          ))}
-        </div> */}
-        {/* <CaruselFeedBack feedback={feedback}/> */}
       </div>
       <Popular />
     </div>

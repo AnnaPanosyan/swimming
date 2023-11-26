@@ -1,71 +1,69 @@
-  
-
-.home {
-  height: 100vh;
-  max-width: 100%;
-  background: url(../assets/bgimg.jpeg) no-repeat center;
-  background-size: cover;
+.home__page {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  .secContainer {
-    .homeText {
-      text-align: center;
-      .title {
-        color: white;
-        font-size: 3rem;
-        font-weight: 700;
-        @media (max-width: 768px) {
-          font-size: 2.5rem;
+  flex-direction: column;
+  .home {
+    height: 100vh;
+    max-width: 100%;
+    background: url(../assets/bgimg.jpeg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .secContainer {
+      .homeText {
+        text-align: center;
+        .title {
+          color: white;
+          font-size: 3rem;
+          font-weight: 700;
+          @media (max-width: 768px) {
+            font-size: 2.5rem;
+          }
+          @media (max-width: 425px) {
+            font-size: 1.5rem;
+          }
         }
-        @media (max-width: 425px) {
-          font-size: 1.5rem;
-        }
-      }
-      .btn {
-        margin-top: 3rem;
-        transition: all .3s;
-        &:hover {
-          background-color: #7ec40e;
+        .btn {
+          margin-top: 3rem;
+          transition: all 0.3s;
+          &:hover {
+            background-color: #7ec40e;
+          }
         }
       }
     }
   }
- 
-}
-.feedbacks {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-height: 350px ;
-width:100% ;
-padding: 1.5rem;
-  
-  .feedback_title {
+  .feedbacks {
+    margin: 1rem 0;
     display: flex;
-    margin-bottom: 1rem;
-    justify-content: center;
-  align-items:center;
-  .title{
-    font-size: 2rem;
-    font-weight: 600;
-      color: $dark;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
 
-          @media (max-width: 768px) {
-            font-size: 1.5rem;
+    .feedback_title {
+      display: flex;
+      margin-bottom: 1rem;
+      justify-content: center;
+      align-items: center;
+      .title {
+        font-size: 2rem;
+        font-weight: 600;
+        color: $dark;
+
+        @media (max-width: 768px) {
+          font-size: 1.5rem;
+        }
+        @media (max-width: 425px) {
+          font-size: 1rem;
+        }
+        .btn {
+          
+          transition: all 0.3s;
+          &:hover {
+            background-color: #7ec40e;
           }
-          @media (max-width: 425px) {
-            font-size: 1rem;
-          }
-          .btn {
-            transition: all .3s;
-            &:hover {
-              background-color: #7ec40e;
-            }
-            
-          }
-     }
-     
+        }
+      }
+    }
   }
-  
 }

@@ -47,8 +47,8 @@ export const data = [
     duration1: "  1 x 45 Minuten",
     duration2: "  5 x 45 Minuten",
     kids: "",
-    preis1: " Preis 30",
-    preis2: " Preis 125",
+    preis1: " Preis 40",
+    preis2: " Preis 175",
     description: [
       {
         subTitle: "",
@@ -147,39 +147,55 @@ export const data = [
 
 
   },
-  // {
-  //   id: 4,
-  //   number: "04",
-  //   imgSrc: img4,
-  //   destTitle: "Jahreskurs",
-  //   age: "ab 6 Jahre",
-  //   duration1: "45 Minuten",
-  //   lessons: "Das ganze Jahr",
-  //   kids: "von 8-12 Kinder",
-  //   preis1: "Preis 200",
-  //   description: [
-  //     {
-  //       subTitle: "Anforderungen zum Schwimmabzeichen Seepferdchen",
-  //       about: `Während unseres Anfänger-Schwimmkurses werden die Kinder auf 
-  //       spielerische Art und Weise, das sichere und eigenständige Bewegen, 
-  //       im Wasser erarbeiten. Inhaltlich folgen nach der spielerischen Wassergewöhnung 
-  //       das Atmen, Tauchen, Springen, Gleiten und natürlich die ersten Arm und 
-  //       Beinbewegungen des Schwimmens. Der Kurs wird voraussichtlich mit dem 
-  //       Schwimmabzeichen Seepferdchen abgeschlossen.`,
-  //       rouls: [
-  //         `Ein Sprung vom Beckenrand mit anschließendem 25 m
-  //     Schwimmen (ohne Schwimmhilfe) in eine Schwimmart
-  //     in Bauch oder Rückenlage
-  //     ( Grobform, während des Schwimmens in Bauchlage
-  //     erkennbar ins Wasser ausatmen)`,
-  //         `Heraufholen eines Tauchrings mit den Händen aus schultertiefen Wasser`,
-  //         `3-5 Baderegeln, die Sie auch auf meiner Homepage finden können`,
-  //       ],
+  {
+    id: 4,
+    number: "04",
+    imgSrc: img4,
+    destTitle: "Jahreskurs",
+    age: "ab 6 Jahre, Mindestanforderung Schwimmabzeichen Silber",
+    duration1: "45 Minuten",
+    lessons: "Das ganze Jahr, Monatlich kündbar",
+    kids: "von 8-12 Kinder",
+    preis1: "4 Wochen Training (1x pro Woche): Preis 40",
+    description: [
+      {
+        subTitle: "Die Prüfungsanforderungen sind:(Juniorretter)",
+        about: `Für unsere motiviertesten  Schwimmer/in besteht die Möglichkeit an 
+        einem Schwimmkurs für das ganze Jahr  teilzunehmen. 
+        Die Mindestanforderung ist das Silberschwimmabzeichen.
+        Die Ziele in diesem Jahreskurs:
+        Die Kursteilnehmer erlernen das 
+        Kraul-und Rückenkraulschwimmen, um das Goldschwimmabzeichen zu erwerben.
+        Außerdem dient diesen Kurs als Vorbereitung für den Juniorretter/in ( Praktische Teil).`,
+        rouls: [
+          `1)  100m schwimmen ohne Unterbrechung, davon`,
+          `. 25 m Kraulschwimmen`,
+          `. 25m Rückenkraulschwimmen`,
+          `. 25 Brustschwimmen`,
+          `. 25 Rückenschwimmen mit Grätschschwung ohne Armtätigkeit`,
+          ` 2) 25m schleppen eines Partners mit Achselschleppgriff`,
+          ` 3)  Selbstrettungsübung: kombinierter Übung in leichter Freizeitbekleidung die 
+          ohne Pause, in der angegebenen Reihenfolge zu erfüllen ist:`,
+          `. Fußwärts ins Wasser springen, danach schwebelage einnehmen`,
+          `. 4 Minuten schweben an der Wasseroberfläche in Rückenlage mit Paddelbewegungen`,
+          `. 6 Minuten langsames Schwimmen, jedoch mindestens vier mal die Körper Lage wechseln 
+          (Bauch, Rücken, Seitenlage)`,
+          `. Anschließend die Kleidungsstücke im tiefen Wasser ausziehen`,
+          ` 4) Fremdrettungsübung: kombinierte Übung, die ohne Pause  in der angegebenen Reihenfolge 
+          zu erfüllen ist:`,
+          `. 15 m in Bauchlage an schwimmen nach halber Strecke Kopfschmerz auf circa 2 m Tiefe abtauchen 
+          und zwei kleine Gegenstände (z.B. Tauchringe) heraufholen, diese anschließend fallen lassen und 
+          das Anschwimmen fortsetzen.`,
+          `. 15 m schleppen eines Partners mit Achselschleppgriff`,
+          `. Sichern des Geretteten`,
 
-  //     },
-  //   ],
+        ],
 
-  // },
+      },
+      
+    ],
+
+  },
 ];
 
 

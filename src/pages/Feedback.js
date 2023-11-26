@@ -9,8 +9,7 @@ const Feedback = () => {
   const [name, setName] = useState("")
   const [open, setOpen] = useState(false);
   const [rating, setRating] = useState(0);
-  // const stars = [1, 2, 3, 4, 5];
-  const[stars,setStars]=useState([1,2,3,4,5])
+  const [stars, setStars] = useState([1, 2, 3, 4, 5])
 
   const removeItem = (index) => {
     setStars(prevItems => {
@@ -25,7 +24,6 @@ const Feedback = () => {
     removeItem(newRating)
   };
 
-
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
       return;
@@ -35,26 +33,21 @@ const Feedback = () => {
 
   const addFeedback = async (e) => {
     e.preventDefault();
-    
+
     await addDoc(collection(firestore, "feedback"), {
       name: name,
       text: feedbackText,
-      rating:rating,
-      stars:stars,
-      
+      rating: rating,
+      stars: stars,
+
     });
     setFeedbackText("")
     setName("")
     setRating(0)
-    setStars([1,2,3,4,5])
+    setStars([1, 2, 3, 4, 5])
   }
 
-
-
-
-
   return (
-
     <div className='feedback'>
       <div className="feedback__container" >
         <h2>Feedback</h2>
@@ -68,14 +61,12 @@ const Feedback = () => {
               name="user_name"
               value={name}
               onChange={e => setName(e.target.value)}
-              sx={{ m: 2 }}
-            />
+              sx={{ m: 2 }} />
             <div>
               <StarRating rating={rating} onChange={handleRatingChange} />
-              <p>Selected Rating: {rating}</p>
+              <p>{rating}</p>
             </div>
           </div>
-
           <textarea
             className="inputText"
             name="message"
@@ -83,7 +74,6 @@ const Feedback = () => {
             rows="3"
             placeholder="Bitte hier eine Nachricht eingeben"
             value={feedbackText}
-
             onChange={e => setFeedbackText(e.target.value)}
           />
           <button type="submit" className="btn kontactBtn">
@@ -104,12 +94,9 @@ const Feedback = () => {
             </Alert>
           </Snackbar>
         </form>
-
       </div>
-
     </div>
   );
-
 }
 
 export default Feedback
